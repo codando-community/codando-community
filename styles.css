@@ -1,0 +1,121 @@
+@media(max-width: 820px) {
+  html {
+    font-size: 93.75%; 
+  }
+}
+
+@media(max-width: 500px) {
+  html {
+      font-size: 87.5%;
+  }
+}
+
+@media(max-width: 300px) {
+  html {
+      font-size: 67.5%;
+  }
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  background: #24276D 0 0 no-repeat padding-box;
+  opacity: 1;
+}
+
+header nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #FFC42E;
+  margin-top: 2%;
+  font-size: 20px;
+  text-decoration:none;
+  font-family: 'Roboto', sans-serif;
+}
+
+#quem-somos, #nossos-pilares, #nossos-projetos {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #F9F9F9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quem-somos p {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #F9F9F9;
+  margin-top: 3%;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+hr {
+  max-width: 100%;
+  border-bottom: 1px #E7E9F0;
+  opacity: 1;
+  width: 90%;
+}
+
+.nossos-pilares {
+  justify-content: space-between;
+  display: flex;
+  margin-left: 2%;
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.ousadia, .aprendizado, .compartilhar {
+  max-width: 30%;
+  text-align: justify;
+}
+
+#ousadia p:first-child, #aprendizado p:first-child, #compartilhar p:first-child {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+#ousadia p:first-child{
+  color: #48DBDB;
+}
+
+#aprendizado p:first-child{
+  color: #D13C74;
+}
+
+#compartilhar p:first-child{
+  color: #FFC42E;
+}
+
+#ousadia p, #aprendizado p, #compartilhar p {
+  font-family: 'Roboto', sans-serif;
+  color: #F9F9F9;
+  font-size: 18px;
+}
+
+.cody, .coderslab {
+  text-align: center;
+}
+
+.cody .cody-title p, .coderslab .coderslab-title p {
+  color: #48DBDB;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.cody p, .coderslab p {
+  color: #F9F9F9;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
