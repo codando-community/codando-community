@@ -58,6 +58,7 @@ body {
 .menu .nav-list .nav-item .nav-link {
     text-decoration: none;
     color: var(--color-1);
+    font-weight: bold;
 }
 .menu .nav-list .nav-item .nav-link:hover {
     text-decoration: underline;
