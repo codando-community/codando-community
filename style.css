@@ -1,3 +1,4 @@
+/* root */
 :root {
     --color-1: #FFC42E;
     --color-2: #D13C74;
@@ -9,4 +10,75 @@
     --color-8: #48dbdb;
     --color-9: #24276d;
     --font-1: 'Montserrat', sans-serif;
+}
+/* fim root */
+
+/* geral */
+body {
+    font-family: var(--font-1);
+    color: var(--color-4);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* fim geral */
+
+/****** HEADER *******/
+.header {
+    min-height: 730px;
+    background: url(/img/bg_1.jpg);
+    background-position: 0px 0px, 38% 45%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+#fixed {
+    z-index: 9999;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu .nav-list {
+    display: flex;
+}
+
+.menu .nav-list .nav-item {
+    margin: 0 20px;
+}
+
+.menu .nav-list .nav-item .nav-link {
+    text-decoration: none;
+    color: var(--color-1);
+}
+.menu .nav-list .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+/****** FIM HEADER ******/
+
+/****** QUEM SOMOS SECTION *******/
+#about-us {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+#about-us .img-info {
+    margin-right: 2rem;
+}
+
+#about-us .img-info img {
+    width: 600px;
+}
+
+#about-us .txt-info {
+    line-height: 30px;
 }
