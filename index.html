@@ -1,45 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codando</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header" id="home">
-        <div id="fixed">
-            <nav class="menu">
-                <a href="index.html" class="logo">
-                    <img src="/img/codando-logo.svg" alt="Logo do Codando">
-                </a>
-
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Nossos Pilares</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Nossos Projetos</a></li>
-                    <li class="nav-item"><a class ="nav-link" href="#">Eventos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
-                </ul>
-            </nav>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/codando-logo.svg" alt="Logo do Codando" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link link-menu" aria-current="page" href="#"
+                  >Quem somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-menu" href="#">Nossos Pilares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-menu" href="#">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-menu" href="#">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-menu" href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <section id="about-us" class="container">
-            <div class="img-info">
-                <img src="/img/conference_call.png" alt="Ligação de Vídeo">
-            </div>
-            <div class="txt-info">
-                <p>O Codando é uma comunidade de TI criada por veteran@s que fazem parte de algum curso de tecnologia de uma das universidades: São Judas, Unimonte, UNA, UniBH, Unisul, UniCuritiba e UniSociesc.
-                <p>O projeto tem como intuito ajudar os calourxs, veteranxs e entusiastas a se adaptarem com os estudos e se conectarem com a área de TI.</p>
-                <p>Acreditamos que não importa o nível de conhecimento, todos temos algo para contribuir e nós queremos conhecer o que cada um tem de melhor!</p>
-            </div>
-        </section>
+      </nav>
     </header>
 
+    <section id="contact-icons">
+      <div class="icons-block container">
+        <div class="icon">
+          <img src="img/social4.svg" alt="Discord" />
+          <div class="icon-name-block">
+            <p class="icon-name">Discord</p>
+          </div>
+        </div>
 
-</body>
+          <div class="icon">
+            <img src="img/social5.svg" alt="Instagram" />
+            <div class="icon-name-block">
+              <p class="icon-name">Instagram</p>
+            </div>
+          </div>
+
+            <div class="icon">
+              <img src="img/social2.svg" alt="Linkedin" />
+              <div class="icon-name-block">
+                <p class="icon-name">Linkedin</p>
+              </div>
+            </div>
+            <div class="icon">
+              <img src="img/social1.svg" alt="Medium" />
+              <div class="icon-name-block">
+                <p class="icon-name">Medium</p>
+              </div>
+            </div>
+          <div class="icon">
+            <img src="img/social3.svg" alt="Youtube" />
+            <div class="icon-name-block">
+              <p class="icon-name">Medium</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero beatae,
+      doloribus aspernatur cumque aliquid omnis adipisci consequatur, alias est
+      ad praesentium! Mollitia totam dolor ipsum optio perferendis ut facilis
+      debitis! Consectetur cupiditate dolorum odit repudiandae sint aut
+      temporibus eum omnis quidem dignissimos nostrum blanditiis, asperiores
+      eveniet possimus sapiente! Accusantium molestiae ea aspernatur sit
+      quibusdam officia nihil illum dicta vitae eos. Eligendi hic officia
+      molestias dolores quam sint, autem veniam libero nisi accusantium velit
+      magni qui commodi fugit, consequatur consectetur tempora aut eveniet
+      recusandae, dolorem dignissimos. Odio laudantium accusantium optio
+      aperiam?
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

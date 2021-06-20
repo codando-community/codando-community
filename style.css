@@ -13,73 +13,70 @@
 }
 /* fim root */
 
-/* geral */
+/* ========== geral ============ */
 body {
     font-family: var(--font-1);
     color: var(--color-4);
 }
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /* fim geral */
 
-/****** HEADER *******/
-.header {
-    min-height: 730px;
-    background: url(/img/bg_1.jpg);
-    background-position: 0px 0px, 38% 45%;
+/* ========== header ============== */
+
+
+#contact-icons {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background: url(img/bg2.svg);
+    background-position: 20%;
     background-size: cover;
-    background-repeat: repeat, no-repeat;
+    background-repeat: no-repeat;
 }
 
-#fixed {
-    z-index: 9999;
+/* fim header */
+#header > .navbar {
+    background-color: var(--color-3) !important;
+}
+.navbar-nav .nav-item {
+    font-weight: bold;
 }
 
-.menu {
+#header .navbar-nav .link-menu {
+    color: var(--color-1);
+    margin: 0 0.8rem;
+}
+#header .navbar-nav .link-menu:hover {
+    text-decoration: underline;
+}
+
+#about-us {
+    height: 100vh;
+}
+.icons-block {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    height: 100%;
 }
 
-.menu .nav-list {
+.icons-block .icon {
+    margin: 0 1rem;
+    cursor: pointer;
     display: flex;
+    flex-direction: column;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.5s ease;
 }
 
-.menu .nav-list .nav-item {
-    margin: 0 20px;
+.icons-block .icon {
+    width: 150px;
 }
 
-.menu .nav-list .nav-item .nav-link {
-    text-decoration: none;
-    color: var(--color-1);
-    font-weight: bold;
+.icons-block .icon:hover {
+    transform: scale(1.2);
 }
-.menu .nav-list .nav-item .nav-link:hover {
-    text-decoration: underline;
-}
-/****** FIM HEADER ******/
-
-/****** QUEM SOMOS SECTION *******/
-#about-us {
+.icon-name-block {
     display: flex;
     justify-content: center;
-    padding: 4rem;
-}
-
-#about-us .img-info {
-    margin-right: 2rem;
-}
-
-#about-us .img-info img {
-    width: 600px;
-}
-
-#about-us .txt-info {
-    line-height: 30px;
+    max-height: 100px;
 }
