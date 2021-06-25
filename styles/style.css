@@ -1,0 +1,14 @@
+#header > .navbar {
+    background-color: var(--color-3) !important;
+}
+.navbar-nav .nav-item {
+    font-weight: bold;
+}
+
+#header .navbar-nav .link-menu {
+    color: var(--color-1);
+    margin: 0 0.8rem;
+}
+#header .navbar-nav .link-menu:hover {
+    text-decoration: underline;
+}
