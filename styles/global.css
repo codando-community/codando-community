@@ -23,3 +23,8 @@ body {
     height: 100vh;
 }
 /* fim geral */
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,3 +1,4 @@
+/********** HEADER ***********/
 #header > .navbar {
     background-color: var(--color-3) !important;
 }
@@ -11,4 +12,10 @@
 }
 #header .navbar-nav .link-menu:hover {
     text-decoration: underline;
+}
+
+/******** FLOW CONTACT *********/
+
+#flow-contact {
+    background-image: url(../img/background-contact.svg);
 }
