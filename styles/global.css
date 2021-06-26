@@ -16,11 +16,12 @@
 /* ========== geral ============ */
 html {
     font-size: 62,5% /* 10px */;
+    scroll-behavior: smooth;
 }
 body {
     font-family: var(--font-1);
     color: var(--color-4);
-    height: 100vh;
+    
 }
 /* fim geral */
 
