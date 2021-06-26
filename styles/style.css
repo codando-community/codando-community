@@ -143,14 +143,14 @@ a { color: white; text-decoration: none; }
 
 /*********** ABOUT US ***********/
 #about-us {
-    height: 100vh;
     background-image: url(../img/quem-somos-bg.svg);
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: bottom;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10rem 0 4rem 0;
 }
 
 #about-us .container {
