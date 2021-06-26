@@ -144,8 +144,39 @@ a { color: white; text-decoration: none; }
 /*********** ABOUT US ***********/
 #about-us {
     height: 100vh;
+    background-image: url(../img/quem-somos-bg.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#about-us .container {
+    align-items: center;
+}
+
+#about-us .img-about-container img {
+    width: 35.2rem;
+}
+
+#about-us .title {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+#about-us .paragraph {
+    color: var(--color-4);
+    font-family: var(--font-1);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: .7rem 0;
+}
 @media(max-width: 767px) {
     #header .navbar-brand img {
         width: auto;
