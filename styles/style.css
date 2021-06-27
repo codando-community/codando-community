@@ -158,7 +158,7 @@ a { color: white; text-decoration: none; }
 }
 
 #about-us .img-about-container img {
-    width: 35.2rem;
+    width: 100%;
 }
 
 #about-us .title {
@@ -196,7 +196,7 @@ a { color: white; text-decoration: none; }
         width: 5rem;
     }
     #about-us .img-about-container img {
-        width: 16.2rem;
+        width: 100%;
     }
     #about-us .title {
         font-size: 2rem;
