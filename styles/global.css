@@ -13,6 +13,23 @@
 }
 /* fim root */
 
+/**** scrollbar color ****/
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-1);
+}
+body::-webkit-scrollbar-track {
+  background: var(--color-2);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-1) ;
+  border-radius: 6px;
+  border: 3px solid var(--color-1);
+}
+
 /* ========== geral ============ */
 html {
     font-size: 62,5% /* 10px */;
