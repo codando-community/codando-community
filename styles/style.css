@@ -181,6 +181,48 @@ a { color: white; text-decoration: none; }
     line-height: 1.5;
     margin: .7rem 0;
 }
+/*********** FAQ ***********/
+
+#FAQ {
+    background-image: url(../img/FAQ-bg.svg);
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0 4rem 0;
+}
+
+#FAQ .container {
+    align-items: center;
+}
+
+#FAQ .img-about-container img {
+    width: 35.2rem;
+}
+
+#FAQ .title {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+#FAQ .paragraph {
+    color: var(--color-4);
+    font-family: var(--font-1);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: .7rem 0;
+
+}
+#FAQ .top-buffer { 
+    margin-top: 1rem; 
+}
+
 @media(max-width: 767px) {
     #header .navbar-brand img {
         width: auto;
