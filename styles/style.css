@@ -182,12 +182,33 @@ a { color: white; text-decoration: none; }
         width: auto;
         height: 3.2rem;
     }
-    
+    #flow-contact h2 {
+        font-size: 1.6rem;
+    }
+    #flow-contact .title-wrapper p {
+        font-size: 0.8rem;
+    }
     #flow-contact .icons-container {
         flex-direction: row;
         flex-wrap: wrap;
     }
     #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
         width: 5rem;
+    }
+    #about-us .img-about-container img {
+        width: 16.2rem;
+    }
+    #about-us .title {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #about-us .text-container {
+        padding: 0 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
