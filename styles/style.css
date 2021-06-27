@@ -6,10 +6,6 @@
     font-weight: bold;
 }
 
-#header .list-navigation {
-    align-items: center;
-}
-
 #header .navbar-nav .link-menu {
     color: var(--color-1);
     margin: 0 0.8rem;
@@ -143,6 +139,47 @@ a { color: white; text-decoration: none; }
     transform: translateY(-15px);
   }
 }
+/*********** FAQ ***********/
+
+#FAQ {
+    background-image: url(../img/FAQ-bg.svg);
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0 4rem 0;
+}
+
+#FAQ .container {
+    align-items: center;
+}
+
+#FAQ .img-about-container img {
+    width: 35.2rem;
+}
+
+#FAQ .title {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+#FAQ .paragraph {
+    color: var(--color-4);
+    font-family: var(--font-1);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: .7rem 0;
+
+}
+#FAQ .top-buffer { 
+    margin-top: 1rem; 
+}
 
 
 /*********** ABOUT US ***********/
@@ -154,7 +191,7 @@ a { color: white; text-decoration: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0 8rem 0;
+    padding: 10rem 0 4rem 0;
 }
 
 #about-us .container {
@@ -162,7 +199,7 @@ a { color: white; text-decoration: none; }
 }
 
 #about-us .img-about-container img {
-    width: 95%;
+    width: 35.2rem;
 }
 
 #about-us .title {
@@ -186,12 +223,7 @@ a { color: white; text-decoration: none; }
         width: auto;
         height: 3.2rem;
     }
-    #flow-contact h2 {
-        font-size: 1.6rem;
-    }
-    #flow-contact .title-wrapper p {
-        font-size: 0.8rem;
-    }
+    
     #flow-contact .icons-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -199,27 +231,4 @@ a { color: white; text-decoration: none; }
     #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
         width: 5rem;
     }
-    #about-us .img-about-container img {
-        width: 100%;
-    }
-    #about-us .title {
-        font-size: 2rem;
-        text-align: center;
-        margin-top: 2rem;
-    }
-
-    #about-us .text-container {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media(min-width: 768px) and (max-width: 1024px) {
-    #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
-        width: 8rem;
-    }
-    #about-us .title {
-        font-size: 2rem;
-    }
-   
 }
