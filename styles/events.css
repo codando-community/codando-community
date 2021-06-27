@@ -1,9 +1,9 @@
-.carousel-inner img {
+#events .carousel-inner img {
     margin-top: 5%;
     height: 240px;
 }
 
-body  {
+#events  {
     background: url(../img/events.svg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,22 +11,24 @@ body  {
     background-size: cover;
 }
 
-.title p {
+#events .title h2, #events .title h3 {
     color: #D13C74;
     font-weight: bold;
     text-align: center;
 }
 
-.title p:first-child {
-    margin-top: 4%;
+#events .title h2 {
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
-.title p:last-child {
+#events .title h3 {
     margin-bottom: 0;
 }
 
-.bottom {
+#events .bottom {
     margin-top: 4%;
+    margin-bottom: 3%;
     text-align: center;
     color: #24276D;
     font-weight: bold;    
