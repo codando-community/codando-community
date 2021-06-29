@@ -4,7 +4,7 @@
 }
 
 #events  {
-    background: url(../img/events.svg) no-repeat center center fixed; 
+    background: url(../img/events.svg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
