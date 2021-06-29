@@ -1,30 +1,30 @@
-#events .carousel-inner img {
+#projetos .carousel-inner img {
     margin-top: 5%;
     height: 240px;
 }
 
-#events  {
+#projetos  {
     background-color: var(--color-4);
 
-    background: url(../img/bg-nossos-eventos.svg);
+    background: url(../img/bg-nossos-projetos.svg);
 }
 
-#events .title h2, #events .title h3 {
+#projetos .title h2, #projetos .title h3 {
     color: #D13C74;
     font-weight: bold;
     text-align: center;
 }
 
-#events .title h2 {
+#projetos .title h2 {
     margin-top: 5%;
     margin-bottom: 2%;
 }
 
-#events .title h3 {
+#projetos .title h3 {
     margin-bottom: 0;
 }
 
-#events .bottom {
+#projetos .bottom {
     margin-top: 4%;
     margin-bottom: 3%;
     text-align: center;
