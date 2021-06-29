@@ -9,13 +9,13 @@
 #pilares {
     background-color: var(--color-4);
     
-    /* background-image: url(../img/blob2-pilares.svg); */
+    background: url(../img/blob-pilares.svg) no-repeat;
     width: 100%;
     height: 100vh;
-/*     background-size: cover;
+    background-size: cover;
     background-position: center;
     
-    display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     
