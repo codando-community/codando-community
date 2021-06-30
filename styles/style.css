@@ -208,6 +208,7 @@ a { color: white; text-decoration: none; }
 
 #FAQ .img-about-container img {
     width: 35.2rem;
+    max-width: 100%;
 }
 
 #FAQ .title {
@@ -229,6 +230,12 @@ a { color: white; text-decoration: none; }
 }
 #FAQ .top-buffer { 
     margin-top: 1rem; 
+}
+
+#FAQ .img-FAQ-container img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+    margin-bottom: 15%;
 }
 
 @media(max-width: 767px) {
