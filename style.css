@@ -1,0 +1,107 @@
+/* root */
+:root {
+    --color-1: #FFC42E;
+    --color-2: #D13C74;
+    --color-3: #141648;
+    --color-4: #f9f9f9;
+    --color-5: #2b2b2b;
+    --color-6: #2d2d2d;
+    --color-7: #e7e9f0;
+    --color-8: #48dbdb;
+    --color-9: #24276d;
+    --font-1: 'Montserrat', sans-serif;
+}
+/* fim root */
+
+/* ========== geral ============ */
+body {
+    font-family: var(--font-1);
+    /*color: var(--color-4);*/
+}
+/* fim geral */
+
+/* ========== header ============== */
+
+
+#contact-icons {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background: url(img/bg2.svg);
+    background-position: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* fim header */
+#header > .navbar {
+    background-color: var(--color-3) !important;
+}
+.navbar-nav .nav-item {
+    font-weight: bold;
+}
+
+#header .navbar-nav .link-menu {
+    color: var(--color-1);
+    margin: 0 0.8rem;
+}
+#header .navbar-nav .link-menu:hover {
+    text-decoration: underline;
+}
+
+#about-us {
+    height: 100vh;
+}
+.icons-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.icons-block .icon {
+    margin: 0 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.icons-block .icon {
+    width: 150px;
+}
+
+.icons-block .icon:hover {
+    transform: scale(1.2);
+}
+.icon-name-block {
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+}
+
+/*Pilares*/
+.my-flex-card > div > div.card {
+    height: calc(100% - 15px);
+    margin-bottom: 15px;
+    box-shadow: 0.4em 1em 1em var(--color-6);
+}
+
+#pilares {
+    background-color: var(--color-4);
+    background: url(img/blob-pilares.svg) no-repeat, url(img/blob2-pilares.svg) no-repeat right;
+    height: 100vh;
+    
+}
+
+#pilares > div > h1{
+    text-align: center;
+    color: var(--color-2);
+}
+
+#pilares > div .card-header{
+    text-align: center;
+    color: var(--color-9);
+}
+
