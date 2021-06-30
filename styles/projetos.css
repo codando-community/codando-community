@@ -9,8 +9,8 @@
     background: url(../img/bg-nossos-projetos.svg);
 }
 
-#projetos .title h2, #projetos .title h3 {
-    color: #D13C74;
+#projetos .title h2 {
+    color: var(--color-1);
     font-weight: bold;
     text-align: center;
 }
@@ -20,14 +20,14 @@
     margin-bottom: 2%;
 }
 
-#projetos .title h3 {
-    margin-bottom: 0;
+#projetos .bottom h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: var(--color-8);
+    text-align: center;
 }
 
-#projetos .bottom {
-    margin-top: 4%;
-    margin-bottom: 3%;
+#projetos .bottom p {
     text-align: center;
-    color: #24276D;
-    font-weight: bold;    
+    color: var(--color-4);
 }
