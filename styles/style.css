@@ -161,7 +161,7 @@ a { color: white; text-decoration: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0 8rem 0;
+    padding: 10rem 0 16rem 0;
 }
 
 #about-us .container {
