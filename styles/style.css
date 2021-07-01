@@ -195,7 +195,6 @@ a { color: white; text-decoration: none; }
     background-color: var(--color-3);
 
     background-image: url(../img/bg-faq.svg);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,6 +262,7 @@ a { color: white; text-decoration: none; }
         font-size: 2rem;
         text-align: center;
         margin-top: 2rem;
+        height: 100%;
     }
 
     #about-us .text-container {

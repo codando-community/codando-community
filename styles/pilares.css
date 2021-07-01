@@ -8,12 +8,9 @@
 
 #pilares.background {
     background-color: var(--color-4);
-    
     background: url(../img/bg-nossos-pilares.svg);
-    
     background-size: cover;
     background-position: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +26,10 @@
     color: var(--color-2);
 }
 
+#pilares .container {
+    height: 100vh;
+}
+
 #pilares > img{
     z-index: 1;
     position: absolute;
@@ -41,3 +42,18 @@
     color: var(--color-9);
 }
 
+#pilares h1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 767px) {
+    #pilares.background {
+        height: 100vh;
+    }
+
+    #pilares h1 {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+}
