@@ -230,6 +230,19 @@ a { color: white; text-decoration: none; }
 #FAQ .top-buffer { 
     margin-top: 1rem; 
 }
+#FAQ .Title-FAQ {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#FAQ .accordion-button {
+    background-color: transparent
+}
 
 #FAQ .img-FAQ-container img, svg {
     vertical-align: middle;
