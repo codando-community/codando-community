@@ -198,8 +198,10 @@ a { color: white; text-decoration: none; }
     align-items: center;
 }
 
-#FAQ .img-about-container img {
-    width: 35.2rem;
+#FAQ .img-FAQ-container img {
+    width: 100%;
+    margin-bottom: 10%;
+    max-width: 30rem;
 }
 
 #FAQ .title {
@@ -221,6 +223,19 @@ a { color: white; text-decoration: none; }
 }
 #FAQ .top-buffer { 
     margin-top: 1rem; 
+}
+#FAQ .Title-FAQ {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#FAQ .accordion-button {
+    background-color: transparent
 }
 
 @media(max-width: 767px) {
