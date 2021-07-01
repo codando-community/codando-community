@@ -57,3 +57,14 @@
         padding-bottom: 0.5rem;
     }
 }
+
+@media (max-width: 660px) {
+    #pilares.background {
+        height: 120vh;
+    }
+
+    #pilares h1 {
+        padding-top: 1%;
+        padding-bottom: 0;
+    }
+}
