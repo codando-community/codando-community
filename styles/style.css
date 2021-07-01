@@ -20,13 +20,20 @@
     text-decoration: underline;
 }
 
+
+/******** BACKGROUND *********/
+.background{
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
 /******** FLOW CONTACT *********/
 
 #flow-contact {
-    background-image: url(../img/background-contact.svg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+    background-color: var(--color-3);
+
+    background-image: url(../img/bg-flow-contact.svg);
     
     display: flex;
     justify-content: center;
@@ -147,10 +154,10 @@ a { color: white; text-decoration: none; }
 
 /*********** ABOUT US ***********/
 #about-us {
-    background-image: url(../img/quem-somos-bg.svg);
-    height: 100%;
-    background-size: cover;
-    background-position: bottom;
+    background-color: var(--color-3);
+
+    background-image: url(../img/bg-quem-somos.svg);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,13 +188,14 @@ a { color: white; text-decoration: none; }
     line-height: 1.5;
     margin: .7rem 0;
 }
+
 /*********** FAQ ***********/
 
 #FAQ {
-    background-image: url(../img/FAQ-bg.svg);
-    height: 100%;
-    background-size: cover;
-    background-position: top;
+    background-color: var(--color-3);
+
+    background-image: url(../img/bg-faq.svg);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,10 +206,9 @@ a { color: white; text-decoration: none; }
     align-items: center;
 }
 
-#FAQ .img-FAQ-container img {
-    width: 100%;
-    margin-bottom: 10%;
-    max-width: 30rem;
+#FAQ .img-about-container img {
+    width: 35.2rem;
+    max-width: 100%;
 }
 
 #FAQ .title {
@@ -236,6 +243,12 @@ a { color: white; text-decoration: none; }
 }
 #FAQ .accordion-button {
     background-color: transparent
+}
+
+#FAQ .img-FAQ-container img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+    margin-bottom: 15%;
 }
 
 @media(max-width: 767px) {

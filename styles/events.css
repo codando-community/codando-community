@@ -4,11 +4,9 @@
 }
 
 #events  {
-    background: url(../img/events.svg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: var(--color-4);
+
+    background: url(../img/bg-nossos-eventos.svg);
 }
 
 #events .title h2, #events .title h3 {
