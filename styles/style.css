@@ -282,6 +282,25 @@ a { color: white; text-decoration: none; }
         display: flex;
         flex-direction: column;
     }
+    #FAQ {
+        padding: 0;
+        background-position: bottom;
+    }
+    #FAQ .Title-FAQ {
+        padding: 3rem;
+    }
+    #events, #projetos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #pilares .card {
+        width: 80%;
+        margin: 0.3rem auto;
+    }
+    #pilares .card-wrapper {
+        margin: 1% 0;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 1024px) {
