@@ -64,3 +64,36 @@ body {
     z-index: 9999;
     cursor: pointer;
 }
+
+.alerta{
+  position: fixed !important;
+  bottom: 0;
+  z-index: 999;
+  background-color:rgba(255, 255, 255, 0.54) !important;
+  backdrop-filter: blur(3px);
+}
+
+.sair{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.inscricao{
+  font-style: none;
+  background-color: #3ace66;
+  border: none;
+  border-radius: 5px;
+}
+
+.inscricao a:link {
+  font-style: none;
+  color: var(--color-4);
+}
+
+.inscricao a:visited {
+  font-style: none;
+  color: var(--color-4);
+}
