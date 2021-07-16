@@ -198,7 +198,7 @@ a { color: white; text-decoration: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0 4rem 0;
+    padding: 10rem 0 16rem 0;
 }
 
 #FAQ .container {
@@ -218,6 +218,7 @@ a { color: white; text-decoration: none; }
     font-weight: bold;
     font-size: 3rem;
     margin-bottom: 2rem;
+    margin-top: 10rem;
 }
 #FAQ .paragraph {
     color: var(--color-4);
@@ -239,6 +240,7 @@ a { color: white; text-decoration: none; }
     font-size: 3rem;
     margin-bottom: 2rem;
     text-align: center;
+    margin-top: 10rem;
 }
 #FAQ .accordion-button {
     background-color: transparent
