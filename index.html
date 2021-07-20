@@ -30,6 +30,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "190db8b4-f56c-4161-b69b-76d74c3da734", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "1bfbda5a-a70b-4361-be08-5587bd6dc71c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
 </head>
 
 <body>
@@ -285,7 +298,7 @@
           </a>
         </div>
         </section>
-        <section id="FAQ">
+        <section id="FAQ" class="background">
           <div class="container row">
             <h2 class="Title-FAQ">FAQ</h2>
             <div class="img-FAQ-container col-md-7">
@@ -357,7 +370,7 @@
 
 
 
-  <div class="scrollbutton"></div>
+  <!-- <div class="scrollbutton"></div> -->
 
 
   <script src="https://kit.fontawesome.com/285bd2b860.js" crossorigin="anonymous"></script>
