@@ -252,6 +252,63 @@ a { color: white; text-decoration: none; }
     margin-bottom: 15%;
 }
 
+#alert-destaque {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#alert-destaque > div {
+    position: fixed !important;
+    bottom: 15px;
+    z-index: 999;
+    background-color:rgba(255, 255, 255, 0.54) !important;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    padding: 16px;
+}
+
+#alert-destaque > div > p {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+#alert-destaque > div > button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: var(--color-2);
+}
+
+#alert-destaque > div > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#alert-destaque > div > div > a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #3ace66;
+    border: none;
+    border-radius: 15px;
+    padding: 3px 15px;
+}
+  
+#alert-destaque > div > div > a:link {
+    text-decoration: none;
+    color: var(--color-4);
+}
+  
+#alert-destaque > div > div > a:visited {
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+
 @media(max-width: 767px) {
     #header .navbar-brand img {
         width: auto;
