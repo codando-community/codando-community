@@ -255,32 +255,47 @@ a { color: white; text-decoration: none; }
 #alert-destaque {
     width: 100%;
     display: flex;
-    justify-content: center;
 }
 
 #alert-destaque > div {
     position: fixed !important;
-    bottom: 15px;
+    left: 30px;
+    bottom: 30px;
     z-index: 999;
-    background-color:rgba(255, 255, 255, 0.54) !important;
+    padding: 24px 16px;
+    background-color: #FFF !important;
     backdrop-filter: blur(3px);
-    border-radius: 15px;
-    padding: 16px;
+    border-radius: 4px;
 }
 
 #alert-destaque > div > p {
     font-weight: bold;
-    padding-right: 20px;
+    font-size: 26px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color-3);
+    margin-bottom: 16px;
 }
 
 #alert-destaque > div > button {
     position: absolute;
-    top: 5px;
-    right: 10px;
-    background-color: transparent;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    margin: 6px 0 2px 6px;
+
     border: none;
+    border-radius: 50%;
+
     font-weight: bold;
-    color: var(--color-2);
+    color: #FFF;
+    font-size: 10px;
 }
 
 #alert-destaque > div > div {
@@ -290,12 +305,17 @@ a { color: white; text-decoration: none; }
 }
 
 #alert-destaque > div > div > a {
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #3ace66;
+    background-color: var(--color-2);
+    padding: 6px 35px;
+    
     border: none;
-    border-radius: 15px;
-    padding: 3px 15px;
+    border-radius: 4px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
   
 #alert-destaque > div > div > a:link {
