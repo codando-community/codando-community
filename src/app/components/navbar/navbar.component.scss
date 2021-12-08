@@ -6,7 +6,8 @@
         z-index: 100;
         position: fixed;
         width: 200vh;
-        background: #141648 ;
+        background: #141648;
+        backdrop-filter: blur(10px); // TODO corrigir blur
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr 10fr ;
         column-gap: 1vh;
@@ -19,10 +20,10 @@
             width: 5px ;
             height: 20px;
             padding-top: 5px;
-            
+
         }
 
- 
+
         a:hover,a.active{
                         text-decoration: underline;
                         text-decoration-color: orange;
@@ -38,7 +39,7 @@
             text-align: center;
             position: flex;
             padding-right: 0px;
-           
+
 
             img{
                 padding-left: 20px;
@@ -59,6 +60,7 @@
         z-index: 100;
         box-sizing: border-box;
         background: #141648;
+        backdrop-filter: blur(10px); // TODO corrigir blur
         height: 60px;
         width: 100%;
         padding-top: 5px;
@@ -80,7 +82,7 @@
                     line-height: 80px;
                     margin: 30px 0px;
                     line-height: 30px;
-        
+
                     a{
                         text-decoration: none;
                         color: white;
@@ -123,7 +125,7 @@
             #checkbtnimg{
                 width: 25px;
             }
-            
+
         }
     }
 }
@@ -142,6 +144,7 @@
         z-index: 100;
         box-sizing: border-box;
         background:#141648;
+        backdrop-filter: blur(10px); // TODO corrigir blur
         height: 60px;
         width: 100%;
         padding-top: 5px;
@@ -164,7 +167,7 @@
                     line-height: 80px;
                     margin: 30px 0px;
                     line-height: 30px;
-                    
+
                     a{
                         text-decoration: none;
                         color: white;
@@ -184,7 +187,7 @@
 
         #check:checked ~ ul{
             right: 0;
-            
+
         }
         #check{
             display: none;
@@ -200,7 +203,7 @@
             #checkbtnclose{
                 display: none;
             }
-            
+
         }
 
 

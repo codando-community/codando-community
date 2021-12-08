@@ -94,7 +94,7 @@
     h3{
       position: relative;
       top: 22rem;
-      font-size: 24.9154px; 
+      font-size: 24.9154px;
       line-height: 30px;
       letter-spacing: 0.07rem;
     }
@@ -114,7 +114,7 @@
       font-size: 20.1905px;
       line-height: 25px;
       #arrow{
-        position: absolute; 
+        position: absolute;
         top: 45px;
         left: calc(50% - 12px/2);
       }
@@ -155,7 +155,7 @@
     h3{
       position: relative;
       top: 22rem;
-      font-size: 24.9154px; 
+      font-size: 24.9154px;
       line-height: 30px;
       letter-spacing: 0.07rem;
     }
@@ -175,7 +175,7 @@
       font-size: 20.1905px;
       line-height: 25px;
       #arrow{
-        position: absolute; 
+        position: absolute;
         top: 45px;
         left: calc(50% - 12px/2);
       }
@@ -231,12 +231,14 @@
     #saiba-mais-btn{
       width: 272px;
       border-radius: 30px;
-      position: relative;
-      top: 35rem;
+      position: absolute;
+      bottom: 50px;
+      left: calc(50% - 272px/2);
       font-size: 30px;
       line-height: 37px;
+
       #arrow{
-        position: absolute; 
+        position: absolute;
         top: 45px;
         left: calc(50% - 12px/2);
       }
