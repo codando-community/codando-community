@@ -1,0 +1,140 @@
+@import "../../../sass/abstracts/variables";
+
+#pag-pilares-background{
+  min-height: 100vh;
+  background-color: $color_darkBlue;
+}
+
+#pag-pilares{
+  align-content: center;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10%;
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color_white;
+    #nossos-pilares{
+      text-align: center; 
+    }
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.175em;
+    color: $color_white;
+  }
+}
+
+// Mobile
+@media(max-width: 768px){
+  #pag-pilares{
+    #blob-desktop-top{
+      display: none;
+    }
+    #blob-desktop-bottom{
+      display: none;
+    }
+  }
+}
+
+// Tablet
+@media(min-width: 769px) and (max-width: 1279px){
+  #pag-pilares{
+    #blob-desktop-top{
+      display: none;
+    }
+    #blob-desktop-bottom{
+      display: none;
+    }
+  }
+}
+
+// Desktop
+@media(min-width: 1280px){
+  #pag-pilares{
+    #blob-desktop-top{
+      height: 872.76px;
+      max-width: 100%;
+      position: relative;
+      top: 0; // TODO Better
+      left: 0;
+    }
+    #blob-desktop-bottom{
+      height: 872.76px;
+      max-width: 100%;
+      position: relative;
+      bottom: 0;
+      right: 0;
+    }
+    h1{
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: 0.175em;
+      #h1-ousadia{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      }
+      #h1-aprendizado{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+      }
+      #h1-compartilhar{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+      }
+    }
+    h2{
+      #h2-ousadia{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      }
+      #h2-aprendizado{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+      }
+      #h2-compartilhar{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+      }
+    }
+    img{
+      #img-ousadia{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      }
+      #img-aprendizado{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+      }
+      #img-compartilhar{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+      }
+    }
+  }
+}
