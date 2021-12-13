@@ -1,3 +1,5 @@
+@import "../../../sass/abstracts/variables";
+
 @media(min-width: 1280px){
     #navbarMobile{
         display: none;
@@ -6,7 +8,7 @@
         z-index: 100;
         position: fixed;
         width: 200vh;
-        background: #141648;
+        background: $color_darkBlue;
         backdrop-filter: blur(10px); // TODO corrigir blur
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr 10fr ;
@@ -16,7 +18,7 @@
         float: left;
 
         #divider{
-            border-right: 1px solid white;
+            border-right: 1px solid $color_white;
             width: 5px ;
             height: 20px;
             padding-top: 5px;
@@ -26,12 +28,12 @@
 
         a:hover,a.active{
                         text-decoration: underline;
-                        text-decoration-color: orange;
+                        text-decoration-color: $color_yellow;
         }
 
         a{
             text-decoration: none;
-            color: white;
+            color: $color_white;
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
             line-height: 23px;
@@ -59,7 +61,7 @@
         opacity: 0.8;
         z-index: 100;
         box-sizing: border-box;
-        background: #141648;
+        background: $color_darkBlue;
         backdrop-filter: blur(10px); // TODO corrigir blur
         height: 60px;
         width: 100%;
@@ -72,7 +74,7 @@
                position: fixed;
                width: 100%;
                height: 100vh;
-               background: #141648;
+               background: $color_darkBlue;
                right: -100%;
                text-align: right;
                position: fixed;
@@ -85,7 +87,7 @@
 
                     a{
                         text-decoration: none;
-                        color: white;
+                        color: $color_white;
                         font-family: 'Roboto', sans-serif;
                         font-weight: 500;
                         line-height: 23px;
@@ -94,7 +96,7 @@
                     }
 
                     a:hover,a.active{
-                        border-bottom: orange solid 2px;
+                        border-bottom: $color_white solid 2px;
                     }
                 }
             }
@@ -143,7 +145,7 @@
         position: fixed;
         z-index: 100;
         box-sizing: border-box;
-        background:#141648;
+        background:$color_darkBlue;
         backdrop-filter: blur(10px); // TODO corrigir blur
         height: 60px;
         width: 100%;
@@ -156,7 +158,7 @@
                position: fixed;
                width: 100%;
                height: 100vh;
-               background: #141648;
+               background: $color_darkBlue;
                top: 60px;
                right: -100%;
                text-align: right;
@@ -170,7 +172,7 @@
 
                     a{
                         text-decoration: none;
-                        color: white;
+                        color: $color_white;
                         font-family: 'Roboto', sans-serif;
                         font-weight: 500;
                         line-height: 23px;
@@ -179,7 +181,7 @@
                     }
 
                     a:hover,a.active{
-                        border-bottom: orange solid 2px;
+                        border-bottom: $color_yellow solid 2px;
                     }
                 }
             }

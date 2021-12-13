@@ -1,3 +1,5 @@
+@import "../../../sass/abstracts/variables";
+
 .modal {
     h1{
         text-align: center;
@@ -11,7 +13,7 @@
         cursor: pointer;
         width: 40px;
     }
-  color: white;
+  color: $color_white;
   min-width: 100%;
   position: fixed;
   top: 2%;
@@ -22,7 +24,7 @@
 }
 
 #staff{
-    background: #fff;
+    background: $color_white;
     border-radius: 3px;
     box-shadow: 0 2px 8px #333;
     color: black;
@@ -41,13 +43,13 @@
         width: 200px;
         text-align: center;
         font-weight: bold;
-        color: #141548 ;
+        color: $color_darkBlue ;
     }
 
     button{
         text-decoration: none;
-        background-color: #D13C74;
-        color: white;
+        background-color: $color_pink;
+        color: $color_white;
         border: none;
         padding: 5px 25px;
         border-radius: 5px;

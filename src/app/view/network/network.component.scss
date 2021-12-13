@@ -1,6 +1,8 @@
+@import "../../../sass/abstracts/variables";
+
 #pag-redes-background{
   min-height: 100vh;
-  background-color: #141648;
+  background-color: $color_darkBlue;
 }
 
 #pag-redes{
@@ -16,13 +18,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    color: #FFC42E;
+    color: $color_yellow;
   }
   h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: #F9F9F9;
+    color: $color_white;
     #hand{
       content: url(../../../assets/hand.svg);
     }
@@ -31,7 +33,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $color_white;
   }
   #pag-redes-btns{
     display: flex;
@@ -45,13 +47,13 @@
   }
   #saiba-mais-btn{
     height: 58px;
-    background-color: #42446E;
+    background-color: $color_navyBlue;
     border: none;
     box-shadow: 1px 1px #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-transform: lowercase;
-    color: #FFFFFF;
+    color: $color_white;
     cursor: pointer;
     #arrow{
       content: url(../../../assets/arrow.svg);
