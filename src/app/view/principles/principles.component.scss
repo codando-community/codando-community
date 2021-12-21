@@ -3,11 +3,21 @@
 #pag-pilares-background{
   height: fit-content;
   background-color: $color_darkBlue;
+  h1{
+    align-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: 0.175em;
+    color: $color_white;
+    margin-bottom: 197px;
+  }
 }
 
 #pag-pilares{
   align-content: center;
-  text-align: left;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
@@ -17,17 +27,12 @@
     font-weight: 700;
     text-transform: uppercase;
     color: $color_white;
-    #nossos-pilares{
-      text-align: center; 
-    }
   }
   h2{
+    width: 548px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 24px;
-    line-height: 34px;
-    letter-spacing: 0.175em;
     color: $color_white;
   }
 }
@@ -62,78 +67,120 @@
     #blob-desktop-top{
       height: 872.76px;
       max-width: 100%;
-      position: relative;
-      top: 0; // TODO Better
+      position: absolute; // TODO Posicionamento correto
+      top: 0; 
       left: 0;
     }
     #blob-desktop-bottom{
       height: 872.76px;
       max-width: 100%;
-      position: relative;
+      position: absolute; // TODO Posicionamento correto
       bottom: 0;
       right: 0;
     }
-    h1{
-      font-size: 36px;
-      line-height: 44px;
-      letter-spacing: 0.175em;
-      #h1-ousadia{
+    #ousadia{
+      h1{
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.175em;
+        text-align: left;
+        position: absolute; 
+        right: calc(77.5% - 36px/2);
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 1;
       }
-      #h1-aprendizado{
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 2;
-      }
-      #h1-compartilhar{
+      h2{
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.175em;
+        text-align: left;
+        position: absolute; 
+        right: calc(60% - 24px/2);
+        align-self: center;
         grid-column-start: 1;
         grid-column-end: 1;
-        grid-row-start: 3;
-        grid-row-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      }
+      img{
+        max-width: 100%;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-left: 40%;     
       }
     }
-    h2{
-      #h2-ousadia{
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
-      }
-      #h2-aprendizado{
+    #aprendizado{
+      h1{
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.175em;
+        text-align: left;
+        position: absolute; 
+        left: calc(60.5% - 36px/2);
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
       }
-      #h2-compartilhar{
+      h2{
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.175em;
+        text-align: left;
+        position: absolute; 
+        left: calc(60% - 24px/2);
+        align-self: center;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+      }
+      img{
+        max-width: 100%;
         grid-column-start: 1;
         grid-column-end: 1;
-        grid-row-start: 3;
-        grid-row-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-right: 40%;     
       }
     }
-    img{
-      #img-ousadia{
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 1;
-      }
-      #img-aprendizado{
+    #compartilhar{
+      h1{
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.175em;
+        text-align: left;
+        position: absolute; 
+        right: calc(77.5% - 36px/2);
         grid-column-start: 1;
         grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
       }
-      #img-compartilhar{
+      h2{
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.175em;
+        text-align: left;
+        position: absolute; 
+        right: calc(60% - 24px/2);
+        align-self: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+      }
+      img{
+        max-width: 100%;
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 3;
+        margin-left: 40%;     
       }
     }
   }
