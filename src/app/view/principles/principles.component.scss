@@ -29,6 +29,13 @@ h1{
                         "image description";
 }
 
+// TODO Align Middle para Mobile
+.align-middle {
+  grid-template-areas: "image" 
+                       "title" 
+                       "description";
+}
+
 .grid-principle {
   display: grid;
   width: 80%;
