@@ -1,34 +1,45 @@
-<div id="navbarDesktop">
-        <a id="logo">
-            <img src="../../../assets/Logo.svg">
-        </a>
-    <div id="divider"></div>
+<div id="navbarDesktop" [className]="'blur'">
+  <a href="" id="logo">
+    <img src="../../../assets/Logo.svg" />
+  </a>
+  <div id="divider"></div>
 
-    <a href="">QUEM SOMOS</a>
-    <a href="">PILARES</a>
-    <a href="">CODY</a>
-    <a href="">EVENTOS</a>
-    <a href="">FAQ</a>
-
+  <a href="#pag-redes">QUEM SOMOS</a>
+  <a href="">PILARES</a>
+  <a href="">CODY</a>
+  <a href="">EVENTOS</a>
+  <a href="">FAQ</a>
 </div>
 
 <div id="navbarMobile">
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <img src="../../../assets/bars-solid.svg"  id="checkbtnimg">
-            <img src="../../../assets/close_24px.svg"  id="checkbtnclose">
-        </label>
-        <a href="">
-            <img src="../../../assets/Logo.svg">
-        </a>
-        <ul>
-                <li><a href="#">QUEM SOMOS</a></li>
-                <li><a href="#">PILARES</a></li>
-                <li><a href="#">CODY</a></li>
-                <li><a href="#">EVENTOS</a></li>
-                <li><a href="#">FAQ</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <img src="../../../assets/bars-solid.svg" id="checkbtnimg" />
+    </label>
+    <a href="" class="logo">
+      <img src="../../../assets/Logo.svg"  />
+    </a>
 
+    <ul>
+      <div [className]="'blur'" id="expanded-navbarmobile">
+        <a href="">
+          <img src="../../../assets/Logo.svg" class="logo-expanded" />
+        </a>
+        
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn-close">
+          <img src="../../../assets/close_24px.svg" class="checkbtn-closeimg" />
+        </label>
+        
+        <div id="listas">
+          <li><a href="#pag-redes">QUEM SOMOS</a></li>
+          <li><a href="#">PILARES</a></li>
+          <li><a href="#">CODY</a></li>
+          <li><a href="#">EVENTOS</a></li>
+          <li><a href="#">FAQ</a></li>
+        </div>
+      </div>
+    </ul>
+  </nav>
 </div>
