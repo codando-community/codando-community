@@ -1,6 +1,8 @@
+@import "../../../sass/abstracts/variables";
+
 #pag-redes-background{
   min-height: 100vh;
-  background-color: #141648;
+  background-color: $color_darkBlue;
 }
 
 #pag-redes{
@@ -16,13 +18,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    color: #FFC42E;
+    color: $color_yellow;
   }
   h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: #F9F9F9;
+    color: $color_white;
     #hand{
       content: url(../../../assets/hand.svg);
     }
@@ -31,7 +33,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $color_white;
   }
   #pag-redes-btns{
     display: flex;
@@ -45,17 +47,17 @@
   }
   #saiba-mais-btn{
     height: 58px;
-    background-color: #42446E;
+    background-color: $color_navyBlue;
     border: none;
     box-shadow: 1px 1px #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-transform: lowercase;
-    color: #FFFFFF;
+    color: $color_white;
     cursor: pointer;
     #arrow{
       content: url(../../../assets/arrow.svg);
-      position: absolute; // wtf
+      position: absolute; 
       left: calc(50% - 12px/2);
     }
   }
@@ -68,6 +70,7 @@
       display: none;
     }
     #blob-mobile-tablet{
+      max-width: 100%;
       position: absolute;
       top: 5rem;
       left: 0;
@@ -109,8 +112,9 @@
     #saiba-mais-btn{
       width: 272px;
       border-radius: 30px;
-      position: relative;
-      top: 45rem;
+      position: absolute;
+      left: calc(50% - 272px/2);
+      bottom: 50px;
       font-size: 20.1905px;
       line-height: 25px;
       #arrow{
@@ -129,6 +133,7 @@
       display: none;
     }
     #blob-mobile-tablet{
+      max-width: 100%;
       position: absolute;
       top: 5rem;
       left: 0;
@@ -170,8 +175,9 @@
     #saiba-mais-btn{
       width: 272px;
       border-radius: 30px;
-      position: relative;
-      top: 45rem;
+      position: absolute;
+      left: calc(50% - 272px/2);
+      bottom: 50px;
       font-size: 20.1905px;
       line-height: 25px;
       #arrow{
@@ -232,8 +238,8 @@
       width: 272px;
       border-radius: 30px;
       position: absolute;
-      bottom: 50px;
       left: calc(50% - 272px/2);
+      bottom: 50px;
       font-size: 30px;
       line-height: 37px;
 

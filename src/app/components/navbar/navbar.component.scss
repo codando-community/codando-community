@@ -1,3 +1,5 @@
+@import "../../../sass/abstracts/variables";
+
 .blur {
     backdrop-filter: blur(10px);
     background-color: rgba(20, 22, 72, 0.7);
@@ -19,7 +21,7 @@
         z-index: 100;
         position: fixed;
         width: 200vh;
-        background: #141648;
+        background: $color_darkBlue;
         backdrop-filter: blur(10px); // TODO corrigir blur
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr 10fr;
@@ -28,22 +30,21 @@
         justify-content: center;
         float: left;
 
-        #divider {
-            border-right: 1px solid white;
-            width: 5px;
+        #divider{
+            border-right: 1px solid $color_white;
+            width: 5px ;
             height: 20px;
             padding-top: 5px;
         }
 
-        a:hover,
-        a.active {
-            border-bottom: orange solid 2px;
+        a:hover, a.active {
+            border-bottom: $color_yellow solid 2px;
         }
 
         a {
             text-decoration: none;
-            color: white;
-            font-family: "Roboto", sans-serif;
+            color: $color_white;
+            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             line-height: 23px;
             letter-spacing: 1px;
@@ -100,17 +101,16 @@
 
                     a {
                         text-decoration: none;
-                        color: white;
-                        font-family: "Roboto", sans-serif;
+                        color: $color_white;
+                        font-family: 'Roboto', sans-serif;
                         font-weight: 500;
                         line-height: 23px;
                         letter-spacing: 1px;
                         margin-right: 20px;
                     }
 
-                    a:hover,
-                    a.active {
-                        border-bottom: orange solid 2px;
+                    a:hover,a.active{
+                        border-bottom: $color_white solid 2px;
                     }
                 }
             }
@@ -219,17 +219,16 @@
 
                     a {
                         text-decoration: none;
-                        color: white;
-                        font-family: "Roboto", sans-serif;
+                        color: $color_white;
+                        font-family: 'Roboto', sans-serif;
                         font-weight: 500;
                         line-height: 23px;
                         letter-spacing: 1px;
                         margin-right: 20px;
                     }
 
-                    a:hover,
-                    a.active {
-                        border-bottom: orange solid 2px;
+                    a:hover, a.active {
+                        border-bottom: $color_yellow solid 2px;
                     }
                 }
             }
