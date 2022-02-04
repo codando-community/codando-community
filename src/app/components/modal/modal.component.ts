@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./modal.component.scss']
 })
 export class ModalComponent {
-  mostrar: boolean = true;
+  public mostrar: boolean = true;
+  public data = [
+    {
+      text: "A Hello World conference está chegando!",
+      button_text: "Acessar o Sympla",
+      button_link: "https://www.sympla.com.br/produtor/codandocommunity"
+    }
+  ]
 
   toggle () {
     this.mostrar = !this.mostrar;
