@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "deploy": "ng build --prod && ngh --branch=gh-pages --cname=https://codandocommunity.com",
+    "deploy": "ng build --prod && ngh --branch=gh-pages --cname=https://www.codandocommunity.com ",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
