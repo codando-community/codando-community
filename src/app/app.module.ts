@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { PrinciplesComponent } from './view/principles/principles.component';
 import { AboutComponent } from './view/about/about.component';
+import { CodyComponent } from './view/cody/cody.component';
 
 
 
@@ -18,6 +19,7 @@ import { AboutComponent } from './view/about/about.component';
     ModalComponent,
     PrinciplesComponent,
     AboutComponent,
+    CodyComponent,
     
   ],
   imports: [
