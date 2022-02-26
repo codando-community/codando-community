@@ -6,6 +6,7 @@ import { NetworkComponent } from './view/network/network.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { PrinciplesComponent } from './view/principles/principles.component';
+import { AboutComponent } from './view/about/about.component';
 
 
 
@@ -16,6 +17,7 @@ import { PrinciplesComponent } from './view/principles/principles.component';
     NavbarComponent,
     ModalComponent,
     PrinciplesComponent,
+    AboutComponent,
     
   ],
   imports: [
