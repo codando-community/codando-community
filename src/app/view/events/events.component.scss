@@ -6,13 +6,15 @@
   border-radius: 40px;
   background: #fff;
   margin-bottom: 200px;
+  padding-right: 10px;
   
 }
 
 .splide__slide img {
   width: 300px;
   height: 300px;
-  padding-left: 10%;
+  padding-left: 20px;
+  
   
 }
 .informacoes{
@@ -39,4 +41,20 @@ span{
 }
 nav{
   background: $color_darkBlue;
+}
+
+.arrows{
+   width: 28px;
+   height: 28px;
+   color: $color_navyBlue;
+   position: absolute;
+   top: -250%;
+   margin-top: -31px;
+}
+.prev{
+   left: 40px;
+}
+   
+.next{
+   right: 40px;
 }
