@@ -3,9 +3,7 @@
 #pag-pilares-background{
   height: fit-content;
   background-color: $color_darkBlue;
-  padding: 15% 0;
-  
-  
+  padding: 5% 0;
 
   >h1{
     width: 100%;
@@ -31,6 +29,12 @@ h1{
                         "image description";
 }
 
+// TODO Align Middle para Mobile
+.align-middle {
+  grid-template-areas: "image" 
+                       "title" 
+                       "description";
+}
 
 .grid-principle {
   display: grid;
@@ -40,8 +44,6 @@ h1{
   grid-template-rows: auto auto;
   column-gap: 10%;
   padding: 0 10%;
-  padding-bottom: 5%;
-  z-index: 20;
 
   >h1 {
     grid-area: title;
@@ -68,107 +70,37 @@ h1{
   align-content: center;
   display: grid;
   width: 100%;
-  padding: 10% 0% 5%;
-  row-gap: 2%;
+  padding: 15% 0% 5%;
+  row-gap: 10%;
 }
 
 // Mobile
 @media(max-width: 768px){
   #pag-pilares{
     #blob-desktop-top{
-      height: 722.76px;
-      max-width: 100%;
-      position: absolute; // TODO Posicionamento correto
-      top: 290%; 
-      left: 0;
-      z-index: 2;
+      display: none;
     }
     #blob-desktop-bottom{
-      height: 672.76px;
-      max-width: 100%;
-      position: absolute; // TODO Posicionamento correto
-      top: 110%;
-      z-index: 2;
-      bottom: 0;
-      right: 0;
+      display: none;
     }
   }
-
-  #titulo-pilares{
-    padding-bottom: 100px;
-  }
-
   .grid-principle{
-    padding-left: 10%;
-    
-    h1{
-      text-align: center;
-    }
-    h2{
-      width: 500px;
-      height: fit-content;
-      text-align: center;
-    }
-
-    img{
-      width: 310px;
-      max-width: 310px;
-      padding-left: 20%;
-      margin-bottom: 5%;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
-      letter-spacing: 0.175em;
-      color: $color_white;
-    }
+    padding: 0;
   }
-
-// TODO Align Middle para Mobile
-  .align-middle {
-    grid-template-areas: "image" 
-                         "title" 
-                         "description";
-}  
 }
 
 // Tablet
 @media(min-width: 769px) and (max-width: 1279px){
   #pag-pilares{
     #blob-desktop-top{
-      height: 722.76px;
-      max-width: 100%;
-      position: absolute; // TODO Posicionamento correto
-      top: 200%; 
-      left: 0;
-      z-index: 2;
+      display: none;
     }
     #blob-desktop-bottom{
-      height: 672.76px;
-      max-width: 100%;
-      position: absolute; // TODO Posicionamento correto
-      top: 100%;
-      z-index: 2;
-      bottom: 0;
-      right: 0;
+      display: none;
     }
-  }
-
-  #titulo-pilares{
-    padding-bottom: 100px;
   }
   .grid-principle{
-    padding-left: 10%;
-    h2{
-      width: 430px;
-    }
-
-    img{
-      width: 250px;
-      max-width: 250px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
-      letter-spacing: 0.175em;
-      color: $color_white;
-    }
+    padding: 0;
   }
 }
 
@@ -179,16 +111,13 @@ h1{
       height: 872.76px;
       max-width: 100%;
       position: absolute; // TODO Posicionamento correto
-      top: 220%; 
+      top: 0; 
       left: 0;
-      z-index: 2;
     }
     #blob-desktop-bottom{
       height: 872.76px;
       max-width: 100%;
       position: absolute; // TODO Posicionamento correto
-      top: 100%;
-      z-index: 2;
       bottom: 0;
       right: 0;
     }
