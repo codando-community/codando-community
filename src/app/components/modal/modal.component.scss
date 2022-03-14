@@ -1,18 +1,22 @@
 @import "../../../sass/abstracts/variables";
+@import "../../../sass/components/blur";
 
 .modal {
-    h1{
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        padding-top: 5%;
-    }
-    .exitbtn{
-        float: right;
-        padding-right: 2%;
-        cursor: pointer;
-        width: 40px;
-    }
+  h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding-top: 5%;
+  }
+
+  .exitbtn {
+    position: fixed;
+    right: 0;
+    padding-right: 15px;
+    cursor: pointer;
+    width: 40px;
+  }
+
   color: $color_white;
   min-width: 100%;
   position: fixed;
@@ -23,51 +27,50 @@
   z-index: 11000;
 }
 
-#staff{
-    background: $color_white;
-    border-radius: 3px;
-    box-shadow: 0 2px 8px #333;
-    color: black;
-    width: 190px;
-    height: 80px;
-    position: fixed;
-    left: 50%;
-    padding: 24px;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    z-index: 11;
-    font-size: large;
+.card {
+  background: $color_white;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px #333;
+  color: black;
+  width: 300px;
+  min-width: 10%;
+  height: auto;
+  position: fixed;
+  left: 50%;
+  padding: 24px;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  font-size: large;
 
-    p{
-        font-family: 'Montserrat', sans-serif;
-        width: 200px;
-        text-align: center;
-        font-weight: bold;
-        color: $color_darkBlue ;
-    }
+  p {
+    font-family: "Montserrat", sans-serif;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    color: $color_darkBlue;
+  }
 
-    button{
-        text-decoration: none;
-        background-color: $color_pink;
-        color: $color_white;
-        border: none;
-        padding: 5px 25px;
-        border-radius: 5px;
-        text-align: center;
-        display: inline-block;
-        margin-top: 15px;
-        margin-left: 30px;
-        cursor: pointer;
-    }
+  button {
+    width: 100%;
+    text-decoration: none;
+    background-color: $color_pink;
+    color: $color_white;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+  }
 }
 
 .overlay {
-  background: black;
-  height: 100vh;
-  left: 0;
-  opacity: 0.5;
-  position: fixed;
-  top: 0;
   width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
   z-index: 10000;
 }

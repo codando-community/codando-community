@@ -70,6 +70,7 @@
       display: none;
     }
     #blob-mobile-tablet{
+      max-width: 100%;
       position: absolute;
       top: 5rem;
       left: 0;
@@ -131,6 +132,7 @@
       display: none;
     }
     #blob-mobile-tablet{
+      max-width: 100%;
       position: absolute;
       top: 5rem;
       left: 0;
@@ -239,7 +241,6 @@
       left: calc(50% - 272px/2);
       font-size: 30px;
       line-height: 37px;
-
       #arrow{
         position: absolute;
         top: 45px;
