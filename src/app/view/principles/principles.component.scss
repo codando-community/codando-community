@@ -1,0 +1,125 @@
+@import "../../../sass/abstracts/variables";
+
+#pag-pilares-background{
+  height: fit-content;
+  background-color: $color_darkBlue;
+  padding: 5% 0;
+
+  >h1{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175em;
+  color: $color_white;
+}
+
+.align-left-to-right {
+  grid-template-areas:  "title image"
+                        "description image";
+}
+
+.align-right-to-left {
+  grid-template-areas:  "image title"
+                        "image description";
+}
+
+// TODO Align Middle para Mobile
+.align-middle {
+  grid-template-areas: "image" 
+                       "title" 
+                       "description";
+}
+
+.grid-principle {
+  display: grid;
+  width: 80%;
+  justify-content: center;
+  grid-template-columns: 50% fit-content;
+  grid-template-rows: auto auto;
+  column-gap: 10%;
+  padding: 0 10%;
+
+  >h1 {
+    grid-area: title;
+    margin-bottom: 25px;
+  }
+
+  >h2 {
+    grid-area: description;
+    width: fit-content;
+    max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.175em;
+    color: $color_white;
+  }
+
+  >img {
+    grid-area: image;
+    width: 100%;
+  }
+}
+
+#pag-pilares{
+  align-content: center;
+  display: grid;
+  width: 100%;
+  padding: 15% 0% 5%;
+  row-gap: 10%;
+}
+
+// Mobile
+@media(max-width: 768px){
+  #pag-pilares{
+    #blob-desktop-top{
+      display: none;
+    }
+    #blob-desktop-bottom{
+      display: none;
+    }
+  }
+  .grid-principle{
+    padding: 0;
+  }
+}
+
+// Tablet
+@media(min-width: 769px) and (max-width: 1279px){
+  #pag-pilares{
+    #blob-desktop-top{
+      display: none;
+    }
+    #blob-desktop-bottom{
+      display: none;
+    }
+  }
+  .grid-principle{
+    padding: 0;
+  }
+}
+
+// Desktop
+@media(min-width: 1280px){
+  #pag-pilares{
+    #blob-desktop-top{
+      height: 872.76px;
+      max-width: 100%;
+      position: absolute; // TODO Posicionamento correto
+      top: 0; 
+      left: 0;
+    }
+    #blob-desktop-bottom{
+      height: 872.76px;
+      max-width: 100%;
+      position: absolute; // TODO Posicionamento correto
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
