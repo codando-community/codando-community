@@ -1,0 +1,92 @@
+@import "../../../sass/abstracts/variables";
+
+#pag-cody-background {
+  min-height: 100vh;
+  background-color: $color_gray;
+  >h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175em;
+  line-height: 44px;
+  color: $color_darkBlue;
+  margin-bottom: 50px;
+}
+
+.align-left-to-right {
+  grid-template-areas: "image description";
+}
+
+.grid-cody {
+  display: grid;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 50% fit-content;
+  grid-template-rows: auto;
+  column-gap: 10%;
+  padding: 0 10%;
+
+  >p {
+    grid-area: description;
+    width: fit-content;
+    text-align: left;
+    max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.175em;
+    line-height: 28px;
+    color: $color_darkBlue;
+  }
+  >p span {
+    font-weight: bold;
+  }
+  >img {
+    grid-area: image;
+    width: 100%;
+  }
+}
+
+#pag-cody {
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 5% 0% 0%;
+}
+
+@media(max-width: 768px) {
+  .align-middle {
+    grid-template-areas: "image"
+                         "description";
+  }
+  #pag-cody {
+    p {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media(min-width: 769px) and (max-width: 1279px) {
+  .align-middle {
+    grid-template-areas: "image"
+                         "description";
+  }
+  #pag-cody {
+    p {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media(min-width: 1280px) {
+}
