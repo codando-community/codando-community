@@ -47,7 +47,6 @@ h1 {
   >p span {
     font-weight: bold;
   }
-
   >img {
     grid-area: image;
     width: 100%;
@@ -59,44 +58,35 @@ h1 {
   text-align: center;
   width: 100%;
   padding: 5% 0% 0%;
-  #blob-desktop-cody {
-    height: 802px;
-  }
-  #blob-mobile-tablet {
-    height: 601.15px;
-  }
 }
 
 @media(max-width: 768px) {
+  .align-middle {
+    grid-template-areas: "image"
+                         "description";
+  }
   #pag-cody {
-    #blob-desktop-cody {
-      display: none;
-    }
-    #blob-mobile-tablet {
+    p {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
   }
 }
 
 @media(min-width: 769px) and (max-width: 1279px) {
+  .align-middle {
+    grid-template-areas: "image"
+                         "description";
+  }
   #pag-cody {
-    #blob-desktop-cody {
-      display: none;
-    }
-    #blob-mobile-tablet {
+    p {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
   }
 }
 
 @media(min-width: 1280px) {
-  #pag-cody {
-    #blob-desktop {
-      display: none;
-    }
-    #blob-mobile-tablet{
-      max-width: 100%;
-      position: absolute; // TODO Posicionamento correto
-      top: 7rem;
-      right: 0;
-    }
-  }
 }
