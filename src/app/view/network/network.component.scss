@@ -70,6 +70,7 @@
       display: none;
     }
     #blob-mobile-tablet{
+      max-width: 100%;
       position: absolute;
       top: 5rem;
       left: 0;
@@ -111,8 +112,9 @@
     #saiba-mais-btn{
       width: 272px;
       border-radius: 30px;
-      position: relative;
-      top: 45rem;
+      position: absolute;
+      left: calc(50% - 272px/2);
+      bottom: 50px;
       font-size: 20.1905px;
       line-height: 25px;
       #arrow{
@@ -131,6 +133,7 @@
       display: none;
     }
     #blob-mobile-tablet{
+      max-width: 100%;
       position: absolute;
       top: 5rem;
       left: 0;
@@ -172,8 +175,9 @@
     #saiba-mais-btn{
       width: 272px;
       border-radius: 30px;
-      position: relative;
-      top: 45rem;
+      position: absolute;
+      left: calc(50% - 272px/2);
+      bottom: 50px;
       font-size: 20.1905px;
       line-height: 25px;
       #arrow{
@@ -234,8 +238,8 @@
       width: 272px;
       border-radius: 30px;
       position: absolute;
-      bottom: 50px;
       left: calc(50% - 272px/2);
+      bottom: 50px;
       font-size: 30px;
       line-height: 37px;
 
