@@ -16,5 +16,5 @@
 <h2>Resultado</h2>
 <h3>Desktop</h3>
 <a href='https://github.com/M4theus13'>
-	<img width="100%" src="https://github.com/M4theus13/codando-community/blob/main/img/codando-website-amostra.png">
+	<img width="100%" src="https://github.com/codando-community/codando-community/blob/main/img/codando-website-amostra.png">
 </a>
