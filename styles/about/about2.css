@@ -1,0 +1,42 @@
+#pag-about-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #pag-about {
+    width: 80%;
+  }
+  
+  #titulo-codando {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.175em;
+    line-height: 44px;
+    color: #141648;
+    margin-bottom: 50px;
+  }
+  
+  .grid-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #img-about {
+    width: 45%;
+    height: auto;
+  }
+  
+  #about-descricao {
+
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.175em;
+    
+    color: #141648;
+  }

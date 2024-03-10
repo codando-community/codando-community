@@ -4,6 +4,7 @@
 }
 .navbar-nav .nav-item {
     font-weight: bold;
+    
 }
 
 #header .list-navigation {
@@ -34,7 +35,7 @@
     background-color: var(--color-3);
 
     background-image: url(../img/bg-flow-contact.svg);
-    
+    z-index:20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +126,7 @@ a { color: white; text-decoration: none; }
 }
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 3% 0;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
