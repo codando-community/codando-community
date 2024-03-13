@@ -4,6 +4,12 @@
 
 <p align="center">O projeto foi desenvolvido em Html, Css e JavaScript. Está hospedado na plataforma brasileira <a href='https://bohr.io/'>Bohr.io</a> </p>
 
+<h2 align="center">Requisitos para rodar o projeto</h2>
+
+<li>Instalar Visual Studio Code</li>
+<li>Instalar Git</li>
+<li>Clonar o projeto para a máquina</li>
+
 <h2 align="center">Descrição do Projeto</h2>
 
 <p>O Codando é uma comunidade de TI criada por veteran@s que fazem parte de algum curso de tecnologia.</p>
