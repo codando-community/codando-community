@@ -2,11 +2,53 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
   background-color: var(--color-9);
 }
 
 main {
   padding-top: 76px; /*padding de correção para header*/
   height: 100vh;
+}
+
+@media (max-width:1100px) {
+  .logo-codando.justify-content-end {
+    justify-content: center !important;
+  }
+
+  .codando.justify-content-center {
+    justify-content: flex-start !important;
+  }
+
+  .box-logos-contato.d-flex {
+    flex-direction: column;
+  }
+
+  #logo-codando {
+    width: 50px;
+  }
+
+  .logos-contato {
+    width: 50px;
+  }
+}
+
+@media (max-width:610px) {
+  .footer-box.row {
+    flex-direction: column;
+  }
+
+  .box-logos-contato.d-flex {
+    flex-direction: row;
+  }
+
+  .box-logos-contato.justify-content-start {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width:425px) {
+  #footer-codando, #footer-community {
+    font-size: 46px;
+    padding-block: 10px;
+  }
 }

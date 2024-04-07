@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ</title>
 
+  <title>FAQ Codando</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+  <!-- Style -->
   <link rel="stylesheet" href="../../styles/reset.css">
   <link rel="stylesheet" href="../../styles/global.css">
   <link rel="stylesheet" href="../../styles/header/header.css">
@@ -14,7 +17,11 @@
   <link rel="stylesheet" href="../../styles/style.css">
   <link rel="stylesheet" href="../faq/faq.css">
 
-  <!-- fonte -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
@@ -23,6 +30,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
+  <!-- Script -->
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "cdec60ff-cf63-48ca-a688-4a8ebf4be106", // The ID of this integration.
+        region: "us-east", // The region your integration is hosted in.
+        serviceInstanceID: "5f5dbbd4-33c6-4729-a815-7c29e6983084", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
 </head>
 <body>
   <header id="header">
@@ -66,17 +87,17 @@
   </main>
 
   <footer class="border-top border-warning border-2 pt-4">
-    <div class="row">
-      <div class="col d-flex justify-content-end align-items-start"><!--logo codando-->
+    <div class="footer-box row gx-0">
+      <div class="logo-codando col d-flex justify-content-end align-items-start"><!--logo codando-->
         <img src="../../img/codando-logo-icon 1.svg" alt="logo-codando" id="logo-codando">
       </div>
 
-      <div class="col d-flex flex-column align-items-center justify-content-center"><!--codando community-->
+      <div class="codando col d-flex flex-column align-items-center justify-content-center"><!--codando community-->
         <span id="footer-codando">codando</span>
         <span id="footer-community">community</span>
       </div>
       
-      <div class="col d-flex align-items-center justify-content-evenly"><!--contato-->
+      <div class="box-logos-contato col d-flex align-items-center justify-content-start gap-3"><!--contato-->
         <img src="../../img/social2.svg" alt="Linkedin" class="logos-contato">
         <img src="../../img/social4.svg" alt="Discord" class="logos-contato">
         <img src="../../img/logo-email.svg" alt="Email" class="logos-contato">
@@ -87,5 +108,8 @@
       <span id="footer-text">Desenvolvido por codando</span>
     </div>
   </footer>
+  
+  <!-- Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
