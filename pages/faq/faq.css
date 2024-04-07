@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: var(--color-9);
+}
+
+main {
+  padding-top: 76px; /*padding de correção para header*/
+  height: 100vh;
+}

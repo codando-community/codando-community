@@ -1,0 +1,47 @@
+footer {
+  background-color: var(--color-3);
+  color: var(--color-4);
+}
+
+#logo-codando {
+  width: 80px;
+}
+
+#footer-codando, #footer-community {
+  font-size: 56px;
+  padding-block: 10px;
+}
+
+#footer-codando {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-2);
+}
+
+#footer-community {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-1);
+}
+
+.logos-contato {
+  width: 80px;
+}
+
+#footer-text {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.box-footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
