@@ -3,11 +3,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--color-9);
+  color: var(--color-4);
 }
 
 main {
   padding-top: 76px; /*padding de correção para header*/
-  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
 }
 
 @media (max-width:1100px) {
@@ -51,4 +53,44 @@ main {
     font-size: 46px;
     padding-block: 10px;
   }
+}
+
+/* conteudo principal */
+
+.opt-itens, .box-questions, .questions {
+  border: 2px solid white; /*remover dps*/
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-contact {
+  border: 2px solid white; /*remover dps*/
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-contact .contact {
+  width: 100%;
+  min-height: 100px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.opt-itens, .questions {
+  border: 2px solid red; /*remover dps*/
+  width: 100%;
+  height: 100%;
+}
+
+.box-email-contact ,.box-discord-contact {
+  border: 2px solid white; /*remover dps*/
 }
