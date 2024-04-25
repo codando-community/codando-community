@@ -30,6 +30,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <!-- Script -->
   <script>
     window.watsonAssistantChatOptions = {
@@ -80,25 +84,39 @@
   </header>
 
   <main>
-    <section class="faq p-5">
+    <section class="faq p-5 d-flex align-items-center justify-content-center flex-column">
       <div class="box-questions">
         <div class="opt-itens m-3">
-          
+
         </div>
         
         <div class="questions m-3"> 
-          
+
         </div>
       </div>
 
       <div class="box-contact">
         <div>
-          <span>Não encontrou sua dúvida?, entre em contato conosco</span>
+          <span>Não encontrou sua dúvida?<br> entre em contato conosco</span>
         </div>
+
         <div class="contact">
-          <div class="box-discord-contact">Discord</div>
-          <div><span>ou</span></div>
-          <div class="box-email-contact">Email</div>
+          <div class="box-discord-contact">
+            <img src="../../img/logo-discord.svg" alt="logo-discord" class="contact-logo">
+            <span class="text-center">Acesse o nosso servidor no discord, e coloque sua duvida no canal <span class="fw-bold">#ajuda.</span></span>
+            <div class="border-top border-black d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+              <a href="" class="pt-3">Clique aqui</a> <!--falta link -->
+            </div>
+        </div>
+
+        <div><span style="font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 20px;">ou</span></div>
+
+        <div class="box-email-contact">
+          <img src="../../img/logo-email.svg" alt="logo-email" class="contact-logo">
+          <span class="text-center">Nos envie um e-mail com sua duvida e retornaremos assim que possível</span>
+          <div class="border-top border-black d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+            <a href="" class="pt-3">Clique aqui</a> <!--falta link -->
+          </div>
         </div>
       </div>
     </section>
