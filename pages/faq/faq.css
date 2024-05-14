@@ -96,6 +96,7 @@ main {
   width: 100%;
   min-height: 500px;
   background-color: var(--color-4);
+  border-radius: 5px;
 }
 
 .opt-itens {
@@ -116,4 +117,65 @@ main {
 .contact-logo {
   width: 90px;
 
+}
+
+@media (max-width:768px) {
+  .faq {
+    padding: 0 !important;
+  }
+
+  .box-email-contact, .box-discord-contact {
+    width: 250px;
+    height: 180px 
+  }
+
+  .contact-logo {
+    width: 60px;
+}
+
+.opt-itens, .questions {
+  margin: 1rem 0.5rem !important;
+}
+
+.opt-itens {
+  width: 55%;
+}
+}
+
+@media (max-width:425px) {
+  .box-contact .contact {
+    gap: 5px;
+    margin-block: 10px;
+  }
+
+  .box-contact > div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-questions {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.opt-itens, .questions {
+  width: 90%;
+}
+
+.opt-itens	{
+  min-height: 220px;
+}
+
+.questions {
+  min-height: 370px;
+}
+
+.opt-itens, .questions {
+  margin: 0.5rem 0.5rem !important;
+}
 }
