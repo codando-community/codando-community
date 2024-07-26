@@ -204,6 +204,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .inputDuvidas {
@@ -253,6 +254,10 @@ main {
 
   .opt-itens {
     width: 85%;
+  }
+
+  .inputDuvidas {
+    width: 100%;
   }
 }
 
