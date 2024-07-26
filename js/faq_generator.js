@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const optItens = document.getElementById("opt-itens");
 
-  const questions = document.getElementById("questions");
-  const titleElement = questions.querySelector("h3");
+  const questions = document.getElementById("questions-itens");
+  const titleElement = questions.querySelector("h2");
   const videoContainer = questions.querySelector("#video-container");
   const textContent = questions.querySelector("#text-content");
 
@@ -378,10 +378,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function createButtonGroup(topic, buttons) {
-    let groupWrapper = optItens.querySelector(".opt-itens.m-3");
+    let groupWrapper = optItens.querySelector(".opt-button.m-3");
     if (!groupWrapper) {
       groupWrapper = document.createElement("div");
-      groupWrapper.className = "opt-itens m-3";
+      groupWrapper.className = "opt-button m-3";
       optItens.appendChild(groupWrapper);
     }
 
@@ -407,12 +407,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     collapsible.addEventListener("click", function () {
       this.classList.toggle("active");
+
       const content = this.nextElementSibling;
       if (content.style.display === "block") {
         content.style.display = "none";
       } else {
         content.style.display = "block";
       }
+
+      var div1 = document.getElementById("opt-itens");
+      var div2 = document.getElementById("questions");
+      
+      // Obtém os tamanhos de div1
+      // var div1Width = window.getComputedStyle(div1).width;
+      var div1Height = window.getComputedStyle(div1).height;
+      
+      // Define os tamanhos de div2 para serem iguais aos de div1
+      // div2.style.width = div1Width;
+      div2.style.height = div1Height;
+      
+      // Adiciona o evento de clique ao botão para chamar a função copySize
+      document.getElementById("resizeButton").addEventListener("click", copySize);
+
     });
   }
 

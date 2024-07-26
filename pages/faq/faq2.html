@@ -95,7 +95,17 @@
     .opt-itens {
       margin: 1rem;
     }
+
+    img {
+      width: 100%;
+    }
+
+    #video-container{
+      width: 100%;
+    }
   </style>
+
+
 </head>
 
 <body>
@@ -138,9 +148,11 @@
         </div>
 
         <div id="questions" class="questions m-3">
-          <h3></h3>
-          <div id="video-container"></div>
-          <p id="text-content"></p>
+          <div id="questions-itens" class="d-flex gap-3 flex-column" style="width: 70%;">
+            <h2 style="font-size: 25px; font-weight: bold; color: #D13C74;"></h2>
+            <div id="video-container"></div>
+            <p id="text-content" style="font-weight: 500;"></p>
+          </div>
         </div>
       </div>
       <div class="box-contact">
