@@ -1,0 +1,34 @@
+#projetos .carousel-inner img {
+    margin: 5% auto;
+    height: 240px;
+}
+
+#projetos  {
+    background-color: var(--color-4);
+
+    background: url(../img/bg-nossos-projetos.svg);
+}
+
+#projetos .title h2 {
+    color: var(--color-1);
+    font-weight: bold;
+    text-align: center;
+}
+
+#projetos .title h2 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#projetos .bottom h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: var(--color-8);
+    text-align: center;
+}
+
+#projetos .bottom p {
+    text-align: center;
+    padding: 0 15%;
+    color: var(--color-4);
+}

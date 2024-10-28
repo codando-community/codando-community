@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FAQ Codando</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="../../styles/reset.css">
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="../../styles/header/header.css">
+  <link rel="stylesheet" href="../../styles/footer/footer.css">
+  <link rel="stylesheet" href="../../styles/style.css">
+  <link rel="stylesheet" href="../faq/faq.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../img/codando-logo-icon.svg" type="image/x-icon">
+  <link rel="icon" href="../../img/codando-logo-icon.svg" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Script -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "cdec60ff-cf63-48ca-a688-4a8ebf4be106", // The ID of this integration.
+      region: "us-east", // The region your integration is hosted in.
+      serviceInstanceID: "5f5dbbd4-33c6-4729-a815-7c29e6983084", // The ID of your service instance.
+      onLoad: function (instance) { instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html">
+          <img id="logo-codando-header" src="../../img/codando-logo-icon.svg" alt="Logo do Codando" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav list-navigation">
+            <li class="nav-item">
+              <a class="nav-link link-menu" aria-current="page" href="#about-us">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-menu" href="#pilares">Nossos Pilares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-menu" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-menu" href="#events">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-menu" href="./pages/faq/faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="faq p-5 d-flex align-items-center justify-content-center flex-column">
+      <div class="box-questions">
+        <div class="opt-itens m-3">
+          <div id="perguntasFrequentes" class="opt-faq"><img src="../../img/faq/perguntas-frequentes.svg" alt="Perguntas frequentes" class="opt-faq-logo">
+            Perguntas frequentes</div>
+          <div id="pesquiseSuaDuvida" class="opt-faq"><img src="../../img/faq/pesquise-sua-duvida.svg" alt="Pesquise sua duvida" class="opt-faq-logo">Pesquise sua duvida</div>
+          <div id="tutoriaisUlife" class="opt-faq"><img src="../../img/faq/tutoriais-ulife.svg" alt="Tutoriais ULIFE" class="opt-faq-logo">Tutoriais ULIFE</div>
+        </div>
+
+        <div class="questions m-3">
+          <div id="perguntasFrequentesDialog" class="PF" style="display: none;">
+            <div class="tituloPF">Perguntas frequentes:</div>
+            <div class="PFItem"><button id="btn1" class="PFItemText">Como faço para cadastrar os certificados de horas complementares no ulife ?</button></div>
+            <div id="txt1" style="color: black; display: none;">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="PFItem"><button id="btn2" class="PFItemText">Como faço para consultar meu historico pelo ulife ?</button></div>
+            <div id="txt2" style="color: black; display: none;">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="PFItem"><button id="btn3" class="PFItemText">Como faço para consultar meu calendário acadêmico ?</button></div>
+            <div id="txt3" style="color: black; display: none;">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="PFItem"><button id="btn4" class="PFItemText">Como cadastro minhas horas de extensão ?</button></div>
+            <div id="txt4" style="color: black; display: none;">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+          </div>
+          <div id="duvidasDialog" class="d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+            <div class="textDuvidas">Digite sua duvida aqui:</div>
+            <div class="divDuvidas">
+              <input class="inputDuvidas" type="text">
+            </div>
+          </div>
+          <div id="tutoriaisDialog" style="display: none;">
+            <div class="textDuvidas">Clique abaixo e veja os nossos tutoriais</div>
+            <div id="menu"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-contact">
+        <div>
+          <span>Não encontrou sua dúvida?<br> entre em contato conosco</span>
+        </div>
+
+        <div class="contact">
+          <div class="box-discord-contact">
+            <img src="../../img/logo-discord.svg" alt="logo-discord" class="contact-logo">
+            <span class="text-center">Acesse o nosso servidor no discord, e coloque sua duvida no canal <span class="fw-bold">#ajuda.</span></span>
+            <div class="border-top border-black d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+              <a href="" class="pt-3">Clique aqui</a> <!--falta link -->
+            </div>
+          </div>
+
+          <div><span style="font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 20px;">ou</span></div>
+
+          <div class="box-email-contact">
+            <img src="../../img/logo-email.svg" alt="logo-email" class="contact-logo">
+            <span class="text-center">Nos envie um e-mail com sua duvida e retornaremos assim que possível</span>
+            <div class="border-top border-black d-flex align-items-center justify-content-center flex-column" style="width: 100%;">
+              <a href="" class="pt-3">Clique aqui</a> <!--falta link -->
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="border-top border-warning border-2 pt-4">
+    <div class="footer-box row gx-0">
+      <div class="logo-codando col d-flex justify-content-end align-items-start"><!--logo codando-->
+        <img src="../../img/codando-logo-icon.svg" alt="logo-codando" id="logo-codando">
+      </div>
+
+      <div class="codando col d-flex flex-column align-items-center justify-content-center"><!--codando community-->
+        <span id="footer-codando">codando</span>
+        <span id="footer-community">community</span>
+      </div>
+
+      <div class="box-logos-contato col d-flex align-items-center justify-content-start gap-3"><!--contato-->
+        <img src="../../img/logo-linkedin.svg" alt="Linkedin" class="logos-contato">
+        <img src="../../img/logo-discord.svg" alt="Discord" class="logos-contato">
+        <img src="../../img/logo-email.svg" alt="Email" class="logos-contato">
+      </div>
+    </div>
+    <div class="box-footer-text p-2">
+      <span>&copy;</span>
+      <span id="footer-text">Desenvolvido por codando</span>
+    </div>
+  </footer>
+
+  <script src="../../js/faq.js"></script>
+
+  <!-- Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

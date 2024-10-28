@@ -1,0 +1,52 @@
+#pag-about-background {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #pag-about {
+    width: 80%;
+  }
+  
+  #titulo-codando {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.175em;
+    line-height: 44px;
+    color: #141648;
+    margin-bottom: 50px;
+  }
+  
+  .grid-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #img-about {
+    width: 45%;
+    height: 100%;
+  }
+  
+  #about-descricao {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.175em;
+    height: 100%;
+    color: #141648;
+  }
+
+  /* Estilos responsivos para telas menores que 768px */
+@media (max-width: 768px) {
+  .grid-about {
+    flex-direction: column;
+  }
+
+  #img-about, #about-descricao {
+    width: 100%;
+  }
+}

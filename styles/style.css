@@ -1,0 +1,219 @@
+/******** BACKGROUND *********/
+.background{
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/*********** FAQ ***********/
+#FAQ {
+    background-color: var(--color-3);
+
+    background-image: url(../img/bg-faq.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0 16rem 0;
+}
+
+#FAQ .container {
+    align-items: center;
+}
+
+#FAQ .img-about-container img {
+    width: 35.2rem;
+    max-width: 100%;
+}
+
+#FAQ .title {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+}
+#FAQ .paragraph {
+    color: var(--color-4);
+    font-family: var(--font-1);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: .7rem 0;
+
+}
+#FAQ .top-buffer { 
+    margin-top: 1rem; 
+}
+#FAQ .Title-FAQ {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-1);
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+#FAQ .accordion-button {
+    background-color: transparent
+}
+
+#FAQ .img-FAQ-container img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+    margin-bottom: 15%;
+}
+
+#alert-destaque {
+    width: 100%;
+    display: flex;
+}
+
+#alert-destaque > div {
+    position: fixed !important;
+    left: 30px;
+    bottom: 30px;
+    z-index: 999;
+    padding: 24px 16px;
+    background-color: #FFF !important;
+    backdrop-filter: blur(3px);
+    border-radius: 4px;
+}
+
+#alert-destaque > div > h1 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color-3);
+    margin-bottom: 16px;
+}
+
+#alert-destaque > div > h2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color-5);
+    margin-bottom: 16px;
+}
+
+#alert-destaque > div > button {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    margin: 6px 0 2px 6px;
+
+    border: none;
+    border-radius: 50%;
+
+    font-weight: bold;
+    color: #FFF;
+    font-size: 10px;
+}
+
+#alert-destaque > div > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#alert-destaque > div > div > a {
+    background-color: var(--color-2);
+    padding: 6px 35px;
+    
+    border: none;
+    border-radius: 4px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+#alert-destaque > div > div > a:link {
+    text-decoration: none;
+    color: var(--color-4);
+}
+  
+#alert-destaque > div > div > a:visited {
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+
+@media(max-width: 767px) {
+    #header .navbar-brand img {
+        width: auto;
+        height: 3.2rem;
+    }
+    #flow-contact h2 {
+        font-size: 1.6rem;
+    }
+    #flow-contact .title-wrapper p {
+        font-size: 0.8rem;
+    }
+    #flow-contact .icons-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
+        width: 5rem;
+    }
+    #about-us .img-about-container img {
+        width: 100%;
+    }
+    #about-us .title {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+        height: 100%;
+    }
+
+    #about-us .text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #FAQ {
+        padding: 0;
+        background-position: bottom;
+    }
+    #FAQ .Title-FAQ {
+        padding: 3rem;
+    }
+    #events, #projetos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #pilares .card {
+        width: 80%;
+        margin: 0.3rem auto;
+    }
+    #pilares .card-wrapper {
+        margin: 1% 0;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
+        width: 8rem;
+    }
+    #about-us .title {
+        font-size: 2rem;
+    }
+   
+}
