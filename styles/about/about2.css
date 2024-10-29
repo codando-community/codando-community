@@ -9,6 +9,7 @@
   
   #pag-about {
     width: 80%;
+    margin: auto;
   }
   
   #titulo-codando {
@@ -25,10 +26,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
   }
   
   #img-about {
-    width: 45%;
+    width: 50%;
     height: 100%;
   }
   

@@ -155,7 +155,7 @@
 }
 
 
-@media(max-width: 767px) {
+@media(max-width: 452px) {
     #header .navbar-brand img {
         width: auto;
         height: 3.2rem;
@@ -171,7 +171,7 @@
         flex-wrap: wrap;
     }
     #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
-        width: 5rem;
+        width: 4rem;
     }
     #about-us .img-about-container img {
         width: 100%;
@@ -215,5 +215,4 @@
     #about-us .title {
         font-size: 2rem;
     }
-   
 }

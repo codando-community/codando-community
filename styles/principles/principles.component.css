@@ -66,7 +66,8 @@
   align-content: center;
   justify-items: center;
   display: grid;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   padding: 10% 0% 5%;
   row-gap: 2%;
 }

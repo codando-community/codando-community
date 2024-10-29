@@ -57,7 +57,8 @@
   #pag-cody {
     align-content: center;
     text-align: center;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     padding: 5% 0% 0%;
   }
   
