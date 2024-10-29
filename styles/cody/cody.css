@@ -22,42 +22,41 @@
     grid-template-areas: "image description";
   }
   
-  .grid-cody {
-    display: grid;
+  #grid-cody {
+    display: flex;
     width: 80%;
+    margin: auto;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 50% fit-content;
-    grid-template-rows: auto;
     column-gap: 10%;
     padding: 0 10%;
   }
   
-  .grid-cody > p {
+  #grid-cody > p {
     grid-area: description;
     width: fit-content;
     text-align: left;
-    max-width: 600px;
+    max-width: 800px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 0.175em;
     line-height: 28px;
     color: #141648;
   }
   
-  .grid-cody > p span {
+  #grid-cody > p span {
     font-weight: bold;
   }
   
-  .grid-cody > img {
+  #grid-cody > img {
     grid-area: image;
-    width: 100%;
+    width: 50%;
   }
   
   #pag-cody {
     align-content: center;
     text-align: center;
-    width: 80%;
     margin: auto;
     padding: 5% 0% 0%;
   }
