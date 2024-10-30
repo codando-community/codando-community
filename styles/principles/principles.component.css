@@ -1,0 +1,124 @@
+@import "../variables";
+
+#pag-pilares-background {
+  height: fit-content;
+  background-color: #141648;
+  padding: 8% 0;
+  z-index: 20;
+}
+
+#pag-pilares-background > h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.pilares-titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175em;
+  color: #ffffff;
+}
+
+
+.align-left-to-right {
+  grid-template-areas: "title image"
+    "description image";
+}
+
+.align-right-to-left {
+  grid-template-areas: "image title"
+    "image description";
+}
+
+.grid-principle {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 50% fit-content;
+  grid-template-rows: auto auto;
+  column-gap: 10%;
+  padding-bottom: 5%;
+  z-index: 20;
+}
+
+.grid-principle > h1 {
+  grid-area: title;
+  margin-bottom: 25px;
+}
+
+.grid-principle > h2 {
+  grid-area: description;
+  font-size: 1.5em;
+  width: fit-content;
+  max-width: 1000px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.175em;
+  color: #ffffff;
+}
+
+.grid-principle > img {
+  grid-area: image;
+  width: 100%;
+}
+
+#pag-pilares {
+  align-content: center;
+  justify-items: center;
+  display: grid;
+  width: 80%;
+  margin: auto;
+  padding: 10% 0% 5%;
+  row-gap: 2%;
+}
+
+#blob-desktop-top{
+  height: 650px;
+  max-width: 100%;
+  position: absolute; 
+  z-index: 1;
+  top: 7rem;
+  left: 0;
+
+}
+#blob-desktop {
+  position: absolute;
+  z-index: 1;
+}
+
+/* ... Seu CSS existente ... */
+
+/* Estilos responsivos para telas menores que 768px */
+@media (max-width: 768px) {
+  #pag-pilares-background {
+    padding: 4% 0;
+  }
+
+  .grid-principle {
+    grid-template-columns: 1fr;
+    padding-bottom: 10%;
+  }
+
+  .align-left-to-right, .align-right-to-left {
+    grid-template-areas: 
+      "title"
+      "image"
+      "description";
+  }
+
+  .grid-principle > h1 {
+    margin-bottom: 15px;
+  }
+
+  .grid-principle > h2 {
+    font-size: 1.2em;
+  }
+
+  #pag-pilares {
+    padding: 5% 0% 5%;
+  }
+
+  #blob-desktop-top {
+    height: 325px;
+  }
+}

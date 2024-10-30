@@ -1,0 +1,91 @@
+#pag-cody-background {
+    min-height: 100vh;
+    background-color: #E7E9F0;
+  }
+  
+  #pag-cody-background > h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .titulo_cody {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.175em;
+    line-height: 44px;
+    color: #141648;
+    margin-bottom: 50px;
+  }
+  
+  .align-left-to-right-cody {
+    grid-template-areas: "image description";
+  }
+  
+  #grid-cody {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    padding: 0 10%;
+  }
+  
+  #grid-cody > p {
+    grid-area: description;
+    width: fit-content;
+    text-align: left;
+    max-width: 800px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.175em;
+    line-height: 28px;
+    color: #141648;
+  }
+  
+  #grid-cody > p span {
+    font-weight: bold;
+  }
+  
+  #grid-cody > img {
+    grid-area: image;
+    width: 50%;
+  }
+  
+  #pag-cody {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 5% 0% 0%;
+  }
+  
+  @media (max-width: 768px) {
+    .align-middle {
+      grid-template-areas: "image"
+                           "description";
+    }
+  
+    #pag-cody p {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1279px) {
+    .align-middle {
+      grid-template-areas: "image"
+                           "description";
+    }
+  
+    #pag-cody p {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+  }

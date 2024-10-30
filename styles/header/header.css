@@ -1,0 +1,34 @@
+/********** HEADER ***********/
+#header > .navbar {
+    background-color: var(--color-3) !important;
+}
+.navbar-nav .nav-item {
+    font-weight: bold;
+    
+}
+
+#logo-codando-header {
+    width: 54px;
+}
+
+#header .list-navigation {
+    align-items: center;
+}
+
+#header .navbar-nav .link-menu {
+    color: var(--color-1);
+    margin: 0 0.8rem;
+    font-family: var(--font-1);
+    text-transform: uppercase;
+}
+#header .navbar-nav .link-menu:hover {
+    text-decoration: underline;
+}
+
+
+/******** BACKGROUND *********/
+.background{
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+}

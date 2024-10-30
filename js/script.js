@@ -14,4 +14,8 @@ function displayButton() {
     }
 }
 
+<<<<<<< HEAD
 window.addEventListener('scroll', displayButton)
+=======
+window.addEventListener('scroll', displayButton)
+>>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce

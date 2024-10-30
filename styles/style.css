@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /********** HEADER ***********/
 #header > .navbar {
     background-color: var(--color-3) !important;
@@ -21,6 +22,8 @@
 }
 
 
+=======
+>>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
 /******** BACKGROUND *********/
 .background{
     height: 100vh;
@@ -28,6 +31,7 @@
     background-position: center !important;
 }
 
+<<<<<<< HEAD
 /******** FLOW CONTACT *********/
 
 #flow-contact {
@@ -191,6 +195,10 @@ a { color: white; text-decoration: none; }
 
 /*********** FAQ ***********/
 
+=======
+
+/*********** FAQ ***********/
+>>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
 #FAQ {
     background-color: var(--color-3);
 
@@ -339,7 +347,11 @@ a { color: white; text-decoration: none; }
 }
 
 
+<<<<<<< HEAD
 @media(max-width: 767px) {
+=======
+@media(max-width: 452px) {
+>>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
     #header .navbar-brand img {
         width: auto;
         height: 3.2rem;
@@ -355,7 +367,11 @@ a { color: white; text-decoration: none; }
         flex-wrap: wrap;
     }
     #flow-contact .icons-container .icons-wrapper .social-icon .social-link img {
+<<<<<<< HEAD
         width: 5rem;
+=======
+        width: 4rem;
+>>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
     }
     #about-us .img-about-container img {
         width: 100%;
@@ -399,5 +415,9 @@ a { color: white; text-decoration: none; }
     #about-us .title {
         font-size: 2rem;
     }
+<<<<<<< HEAD
    
 }
+=======
+}
+>>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
