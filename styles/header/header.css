@@ -7,6 +7,15 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #141648;
+    transition: all 4s ease; 
+  }
+
 #logo-codando-header {
     width: 54px;
 }
