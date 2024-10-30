@@ -14,22 +14,6 @@
 /* fim root */
 
 /**** scrollbar color ****/
-<<<<<<< HEAD
-body::-webkit-scrollbar {
-  width: 11px;
-}
-body {
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-1);
-}
-body::-webkit-scrollbar-track {
-  background: var(--color-2);
-}
-body::-webkit-scrollbar-thumb {
-  background-color: var(--color-1) ;
-  border-radius: 6px;
-  border: 3px solid var(--color-1);
-=======
 ::-webkit-scrollbar {
     background: var(--color-2);
     width: 11px;
@@ -38,7 +22,6 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-thumb {
     background: var(--color-1);
     border-radius: 6px;
->>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
 }
 
 /* ========== geral ============ */
@@ -48,11 +31,7 @@ html {
 }
 body {
     font-family: var(--font-1);
-<<<<<<< HEAD
-    color: var(--color-4);
-=======
     color: var(--color-6);
->>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
     
 }
 /* fim geral */

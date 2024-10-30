@@ -72,6 +72,10 @@
       margin-top: 50px;
       margin-bottom: 50px;
     }
+
+    #grid-cody {
+      display: block;
+    }
   }
   
   @media (min-width: 769px) and (max-width: 1279px) {
