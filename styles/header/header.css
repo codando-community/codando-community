@@ -1,20 +1,25 @@
 /********** HEADER ***********/
 #header > .navbar {
     background-color: var(--color-3) !important;
+    &::after{
+        
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right, #ffc42e, #d13c74);
+    }
 }
+
 .navbar-nav .nav-item {
     font-weight: bold;
-    
 }
 
 html{
     scroll-behavior: smooth;
 }
-
-.navbar-nav .nav-item .nav-link {
-    color: #141648;
-    transition: all 4s ease; 
-  }
 
 #logo-codando-header {
     width: 54px;
@@ -29,11 +34,12 @@ html{
     margin: 0 0.8rem;
     font-family: var(--font-1);
     text-transform: uppercase;
+    &:hover{
+        color: var(--color-4);
+        transition: all 0.3s ease-out;
+        text-decoration: underline;
+    }
 }
-#header .navbar-nav .link-menu:hover {
-    text-decoration: underline;
-}
-
 
 /******** BACKGROUND *********/
 .background{

@@ -15,3 +15,9 @@ function displayButton() {
 }
 
 window.addEventListener('scroll', displayButton)
+
+window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.querySelector('.nav-links').style.animation = 'slideDown 1s forwards ease-in-out';
+    }, 500);
+  });
