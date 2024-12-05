@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
       Text: 
         `O processo de avaliação das Unidades Curriculares ocorre por meio de três avaliações durante o semestre letivo: A1, A2 e A3.
 
-        A <b>avaliação 1</b> (A1) consistirá em uma avaliação dissertativa em que o aluno demonstrará competências por meio de expressão de linguagem, códigos e signos da área. Esta avaliação vale de 0 a 30 pontos.
+        A <strong>avaliação 1</strong> (A1) consistirá em uma avaliação dissertativa em que o aluno demonstrará competências por meio de expressão de linguagem, códigos e signos da área. Esta avaliação vale de 0 a 30 pontos.
 
         A <b>avaliação 2</b> (A2) será composta de questões de múltipla escolha com objetivo de fazer análises e estabelecer relações evidenciando as competências de leitura e interpretação. Esta avaliação vale de 0 a 30 pontos.
 
