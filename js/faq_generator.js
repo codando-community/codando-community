@@ -157,11 +157,11 @@ document.addEventListener("DOMContentLoaded", function () {
       Text: 
         `O processo de avaliação das Unidades Curriculares ocorre por meio de três avaliações durante o semestre letivo: A1, A2 e A3.
 
-        A **avaliação 1** (A1) consistirá em uma avaliação dissertativa em que o aluno demonstrará competências por meio de expressão de linguagem, códigos e signos da área. Esta avaliação vale de 0 a 30 pontos.
+        A <b>avaliação 1</b> (A1) consistirá em uma avaliação dissertativa em que o aluno demonstrará competências por meio de expressão de linguagem, códigos e signos da área. Esta avaliação vale de 0 a 30 pontos.
 
-        A **avaliação 2** (A2) será composta de questões de múltipla escolha com objetivo de fazer análises e estabelecer relações evidenciando as competências de leitura e interpretação. Esta avaliação vale de 0 a 30 pontos.
+        A <b>avaliação 2</b> (A2) será composta de questões de múltipla escolha com objetivo de fazer análises e estabelecer relações evidenciando as competências de leitura e interpretação. Esta avaliação vale de 0 a 30 pontos.
 
-        A **avaliação 3** (A3) consistirá na avaliação das competências explicitadas no plano de ensino, que acompanhe o processo de ensino-aprendizagem ao longo do semestre e resulte no desenvolvimento de um produto final. Esta avaliação vale de 0 a 40 pontos.
+        A <b>avaliação 3</b> (A3) consistirá na avaliação das competências explicitadas no plano de ensino, que acompanhe o processo de ensino-aprendizagem ao longo do semestre e resulte no desenvolvimento de um produto final. Esta avaliação vale de 0 a 40 pontos.
 
         Na UC presencial, estará aprovado o aluno que obtiver, na soma das três avaliações, a nota mínima de 70 pontos e atingir, no mínimo 75% de frequência nas aulas presenciais. Nas UCs digitais, estará aprovado o aluno que obtiver, na soma das três avaliações, a nota mínima de 70 pontos.
 
@@ -171,11 +171,11 @@ document.addEventListener("DOMContentLoaded", function () {
       Title: "Qual a diferença entre as modalidades EAD, Semi e Live?",
       Media: null,
       Text: `
-        **EAD:** é a modalidade 100% online ou digital, como também é chamada, na qual os encontros presenciais não existem. Todo o conteúdo do curso fica disponível no ambiente virtual de aprendizagem para que o estudante acesse no momento em que for mais oportuno.
+        <b>EAD:</b> é a modalidade 100% online ou digital, como também é chamada, na qual os encontros presenciais não existem. Todo o conteúdo do curso fica disponível no ambiente virtual de aprendizagem para que o estudante acesse no momento em que for mais oportuno.
 
-        **Semipresencial**: os estudantes precisam cumprir algumas disciplinas no modelo presencial. Para isso, eles comparecem ao polo de apoio para assistir às aulas e realizar atividades práticas. Assim essa modalidade mistura presencial e EAD.
+        <b>Semipresencial</b>: os estudantes precisam cumprir algumas disciplinas no modelo presencial. Para isso, eles comparecem ao polo de apoio para assistir às aulas e realizar atividades práticas. Assim essa modalidade mistura presencial e EAD.
 
-        **Live**: também pertence à modalidade de ensino a distância. Ou seja, o estudante não precisa estar em sala de aula todos os dias para cumprir a grade curricular do curso, mas ele deve assistir às aulas. 
+        <b>Live</b>: também pertence à modalidade de ensino a distância. Ou seja, o estudante não precisa estar em sala de aula todos os dias para cumprir a grade curricular do curso, mas ele deve assistir às aulas. 
 
         A diferença está justamente na maneira como os encontros com os professores e os colegas de turma acontecem. Todos se reúnem em uma sala de aula virtual e interagem em tempo real, fazendo perguntas, trocando conhecimentos e outras dinâmicas que acontecem nos cursos presenciais.
 
@@ -201,13 +201,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         O aluno possui a opção de realizá-la no momento que desejar, desde que a carga horária total seja concluída até o término do curso de graduação no qual está matriculado. A Extensão pode ser realizada por meio de quatro modalidades:
 
-        **Projetos e publicações**: são projetos de impacto social que possuem um plano de intervenção local para solucionar problemas reais na comunidade onde o aluno reside ou no entorno do polo de apoio presencial.
+        <b>Projetos e publicações</b>: são projetos de impacto social que possuem um plano de intervenção local para solucionar problemas reais na comunidade onde o aluno reside ou no entorno do polo de apoio presencial.
 
-        **Cursos e oficinas**: tem como objetivo o desenvolvimento de habilidades técnicas, socioemocionais e atitudinais para formar profissionais comprometidos com uma atuação cidadã.
+        <b>Cursos e oficinas</b>: tem como objetivo o desenvolvimento de habilidades técnicas, socioemocionais e atitudinais para formar profissionais comprometidos com uma atuação cidadã.
 
-        **Prestação de serviços**: realização de assessoria e consultoria com foco no atendimento à sociedade por meio de ONGs ou institutos.
+        <b>Prestação de serviços</b>: realização de assessoria e consultoria com foco no atendimento à sociedade por meio de ONGs ou institutos.
 
-        **Participação em eventos**: participação em congressos, seminários, conferências, ciclo de debates, exposições, espetáculos, festivais e eventos esportivos <strong>promovidos por instituições de ensino superior credenciadas pelo MEC.
+        <b>Participação em eventos</b>: participação em congressos, seminários, conferências, ciclo de debates, exposições, espetáculos, festivais e eventos esportivos <strong>promovidos por instituições de ensino superior credenciadas pelo MEC.
         `
     },
     {
@@ -236,9 +236,9 @@ document.addEventListener("DOMContentLoaded", function () {
       Text: 
         `Neste segundo bloco do EAD 2024.1, foram disponibilizadas três opções:
 
-        - **Cultura e raízes da violência contra a mulher no Brasil**
-        - **Educação ambiental e caminhos para o bem-viver no mundo**
-        - **Neurociência, aprendizagem e atenção plena**
+        - <b>Cultura e raízes da violência contra a mulher no Brasil</b>
+        - <b>Educação ambiental e caminhos para o bem-viver no mundo</b>
+        - <b>Neurociência, aprendizagem e atenção plena</b>
 
         As inscrições ficaram abertas entre 30/04 e 06/05. No momento não há ofertas de cursos.
         `
@@ -247,22 +247,22 @@ document.addEventListener("DOMContentLoaded", function () {
       Title: " Se eu optar por um dos cursos oferecidos pela minha instituição, como funciona?",
       Media: null,
       Text:`- Cursos
-        **Encontros com o professor**: cada curso de Extensão conta com três encontros ao vivo com o professor. As gravações serão disponibilizadas ao estudante caso não tenha disponibilidade para assistir ao vivo.
+        <b>Encontros com o professor</b>: cada curso de Extensão conta com três encontros ao vivo com o professor. As gravações serão disponibilizadas ao estudante caso não tenha disponibilidade para assistir ao vivo.
         
-        - **Assistir ao vivo**: no dia e horário do evento, o(a) estudante deverá clicar na opção “Calendário” no menu principal do Ulife. O link da sala virtual estará disponível no box “Hoje”.
-        - **Assistir à gravação**: o link estará disponível na aba “Conteúdo” do curso no Ulife.
+        - <b>Assistir ao vivo</b>: no dia e horário do evento, o(a) estudante deverá clicar na opção “Calendário” no menu principal do Ulife. O link da sala virtual estará disponível no box “Hoje”.
+        - <b>Assistir à gravação</b>: o link estará disponível na aba “Conteúdo” do curso no Ulife.
         
-        **Atividade Avaliativa de Mapeamento Local**: para aprovação, será solicitado o desenvolvimento de um relatório de pesquisa abordando o contexto do curso localmente, ou seja, em território compatível com o local de residência do(a) estudante ou do polo de apoio presencial. As instruções para construção do relatório serão fornecidas nos encontros com o professor. Por isso, é fundamental que o(a) estudante assista ao menos a gravação dos três encontros. O relatório deve ser realizado de maneira individual e será entregue por meio do Ulife. A produção do relatório será utilizada como comprovação de presença e para fins de avaliação. Para aprovação, é necessário desempenho maior ou igual a 70 pontos.
+        <b>Atividade Avaliativa de Mapeamento Local</b>: para aprovação, será solicitado o desenvolvimento de um relatório de pesquisa abordando o contexto do curso localmente, ou seja, em território compatível com o local de residência do(a) estudante ou do polo de apoio presencial. As instruções para construção do relatório serão fornecidas nos encontros com o professor. Por isso, é fundamental que o(a) estudante assista ao menos a gravação dos três encontros. O relatório deve ser realizado de maneira individual e será entregue por meio do Ulife. A produção do relatório será utilizada como comprovação de presença e para fins de avaliação. Para aprovação, é necessário desempenho maior ou igual a 70 pontos.
         
-        **Carga horária e certificado**: a realização e aprovação no curso garantirá um certificado que contabiliza 60h de atividade de Extensão, sendo disponibilizado no final do semestre.
+        <b>Carga horária e certificado</b>: a realização e aprovação no curso garantirá um certificado que contabiliza 60h de atividade de Extensão, sendo disponibilizado no final do semestre.
         
 
         - Eventos
             
             
-            **Ambientação e mentorias**: realizadas por meio de encontros ao vivo com professores convidados, via plataforma Teams, são abordados temas diversos e possuem duração de 2h cada. Todos os encontros serão gravados e poderão ser acessados a qualquer momento.
+            <b>Ambientação e mentorias</b>: realizadas por meio de encontros ao vivo com professores convidados, via plataforma Teams, são abordados temas diversos e possuem duração de 2h cada. Todos os encontros serão gravados e poderão ser acessados a qualquer momento.
             
-            **Carga horária e certificado**: cada encontro de ambientação e mentoria terá integralização de 10h de atividade de Extensão. Para o(a) estudante ter direito ao certificado, é obrigatória a inscrição via plataforma Sympla.`
+            <b>Carga horária e certificado</b>: cada encontro de ambientação e mentoria terá integralização de 10h de atividade de Extensão. Para o(a) estudante ter direito ao certificado, é obrigatória a inscrição via plataforma Sympla.`
     },
     {
       Title: "Fiz minha inscrição em um curso/projeto de Extensão e quero cancelar, é possível?",
@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
       Text: 
         `Sim. Neste caso, o aluno deve solicitar uma declaração/certificado da referida ação na respectiva IES e protocolar via Painel do Estudante, contendo a informação da carga horária alocada e assinatura dos responsáveis.
 
-        O caminho para protocolar o certificado é: *Painel do Estudante* > *Solicitações* > Categoria: *Acadêmica* > Subcategoria: *Pesquisa e Extensão* > Solicitação: *Cadastro de Comprovantes de Atividades de Extensão*.`
+        O caminho para protocolar o certificado é: <b>Painel do Estudante</b> > <b>Solicitações</b> > Categoria: <b>Acadêmica</b> > Subcategoria: <b>Pesquisa e Extensão</b> > Solicitação: <b>Cadastro de Comprovantes de Atividades de Extensão</b>.`
     },
     {
       Title: "Quem posso contatar para questões gerais?",
