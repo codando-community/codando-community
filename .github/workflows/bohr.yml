@@ -9,16 +9,5 @@ jobs:
     name: Deploy on bohr.io
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Deploy using bohr-io action
-        uses: bohr-io/action@main
+      - uses: actions/checkout@v3
+      - uses: bohr-io/action@main
