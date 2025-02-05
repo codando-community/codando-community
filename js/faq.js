@@ -8,6 +8,7 @@ perguntasFrequentes.addEventListener("click", () => {
   perguntasFrequentesDialog.style.display = "block";
   duvidasDialog.style.display = "none";
   tutoriaisDialog.style.display = "none";
+  //isso aqui vai mudar
 });
 ///////////////////////////
 var pesquiseSuaDuvida = document.getElementById("pesquiseSuaDuvida");
