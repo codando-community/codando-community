@@ -52,7 +52,10 @@
   #grid-cody > img {
     grid-area: image;
     width: 50%;
+    height: auto;
   }
+
+
   
   #pag-cody {
     align-content: center;
@@ -75,6 +78,10 @@
 
     #grid-cody {
       display: block;
+    }
+
+    #grid-cody > img {
+      width: 100%;
     }
   }
   

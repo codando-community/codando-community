@@ -21,7 +21,10 @@
 }
 .navbar-nav .nav-item:nth-child(5) {
     animation-delay: 1.5s;
-  }
+}
+.navbar-nav .nav-item:nth-child(6) {
+  animation-delay: 1.7s;
+}
   
   @keyframes navItemSlideIn {
     0% {

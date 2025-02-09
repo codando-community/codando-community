@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">Codando Community</h1>
 
 <p align="center">Landing Page do Codando Community, com integração com o bot Cody e descrição sobre nós</p>
@@ -25,7 +24,6 @@
 <a href='https://github.com/codando-community'>
 	<img width="100%" src="https://github.com/codando-community/codando-community/blob/main/img/codando-website-amostra.png">
 </a>
-=======
 # codando-community
 
 O Codando é uma comunidade de TI criada por veteran@s que fazem parte de algum curso de tecnologia.
@@ -33,4 +31,3 @@ O Codando é uma comunidade de TI criada por veteran@s que fazem parte de algum 
 O projeto tem como intuito disseminar conhecimento de tecnologia, não importa o nível de conhecimento, todos temos algo para contribuir e queremos conhecer o que cada um tem de melhor! 
 
 Saiba mais sobre a gente [clicando aqui](https://www.codandocommunity.com)
->>>>>>> 73c3629bc20858b0d60520ec39ec2ed81ff09cce
