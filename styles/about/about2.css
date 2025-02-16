@@ -21,13 +21,25 @@
     color: #141648;
     margin-bottom: 50px;
   }
-  
-  .grid-about {
+
+
+  #about-position {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5em;
   }
+
+  /* implementar 
+  #about-pelicula {
+    position: absolute;
+    background-color: black;
+    left: 15em;
+    opacity: 0.5;
+    width: 30%;
+    height: 70%;
+  }
+    */
   
   #img-about {
     width: 50%;
@@ -36,20 +48,49 @@
   
   #about-descricao {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 100%;
     letter-spacing: 0.175em;
     height: 100%;
     color: #141648;
   }
 
-  /* Estilos responsivos para telas menores que 768px */
-@media (max-width: 768px) {
-  .grid-about {
-    flex-direction: column;
+/* Estilos responsivos para telas menores que 1200px */
+@media (max-width:1200px) {
+  #img-about {
+    width: 75%;
+    height: 100%;
   }
 
-  #img-about, #about-descricao {
+
+  #about-descricao, #about-pelicula, #about-position {
     width: 100%;
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+@media (max-width:1200px) {
+  #img-about {
+    width: 75%;
+    height: 100%;
+    margin-left: 3em;
+  }
+
+} 
+
+@media(max-width: 452px) {
+  #img-about {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+
+  }
+
+  #about-descricao {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin-left: 0;
   }
 }

@@ -71,7 +71,7 @@
     }
   
     #pag-cody p {
-      text-align: center;
+      text-align: left;
       margin-top: 50px;
       margin-bottom: 50px;
     }
@@ -98,5 +98,3 @@
     }
   }
   
-  @media (min-width: 1280px) {
-  }
