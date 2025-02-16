@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 2em;
   }
   
@@ -48,8 +48,8 @@
   
   #about-descricao {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    font-weight: 100%;
+    font-size: 1.2em;
+    font-weight: 400;
     letter-spacing: 0.175em;
     height: 100%;
     color: #141648;
@@ -57,20 +57,12 @@
 
 /* Estilos responsivos para telas menores que 1200px */
 @media (max-width:1200px) {
-  #img-about {
-    width: 75%;
-    height: 100%;
-  }
-
-
-  #about-descricao, #about-pelicula, #about-position {
+#about-descricao, #about-pelicula, #about-position {
     width: 100%;
     flex-direction: column;
     gap: 1em;
   }
-}
 
-@media (max-width:1200px) {
   #img-about {
     width: 75%;
     height: 100%;
@@ -85,12 +77,5 @@
     height: 100%;
     margin-left: 0;
 
-  }
-
-  #about-descricao {
-    width: 100%;
-    height: 100%;
-    text-align: left;
-    margin-left: 0;
   }
 }

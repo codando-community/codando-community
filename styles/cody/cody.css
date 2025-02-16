@@ -5,7 +5,7 @@
   
   #pag-cody-background > h1 {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   
   .titulo_cody {
@@ -92,7 +92,7 @@
     }
   
     #pag-cody p {
-      text-align: center;
+      text-align: left;
       margin-top: 50px;
       margin-bottom: 50px;
     }
