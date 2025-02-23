@@ -2,8 +2,8 @@
 
 #flow-contact {
     min-height:100vh;
-    background-color: var(--color-3);
-    background-image: url(../img/bg-flow-contact.svg);
+    background: var(--color-3) url(../../img/bg-img.png) no-repeat left top;
+    background-size: min(100%, 250px) min(100%, 500px);
     z-index:5;
     align-items: center;
     padding-top: 210px;
