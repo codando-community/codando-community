@@ -5,77 +5,83 @@
     align-items: center;
     text-align: left;
     padding: 2em;
-  }
-  
-  #pag-about {
+}
+
+#pag-about {
     width: 80%;
     margin: auto;
-  }
-  
-  #titulo-codando {
+}
+
+#titulo-codando {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 0.175em;
     line-height: 44px;
     color: #141648;
     margin-bottom: 50px;
-  }
+}
 
-
-  #about-position {
+#about-position {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 5em;
-  }
+    justify-content: space-between;
+    gap: 2em;
+    position: relative;
+}
 
-  /* implementar 
-  #about-pelicula {
-    position: absolute;
-    background-color: black;
-    left: 15em;
-    opacity: 0.5;
-    width: 30%;
-    height: 70%;
-  }
-    */
-  
-  #img-about {
+#about-pelicula {
+    position: relative;
     width: 50%;
+}
+
+#img-about {
+    width: 100%;
     height: 100%;
-  }
-  
-  #about-descricao {
+    display: block;
+}
+
+.pelicula {
+    position: absolute;
+    top: -4%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    pointer-events: none; /* Permite clicar na imagem através da película */
+}
+
+#about-descricao {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 400;
     letter-spacing: 0.175em;
-    height: 100%;
     color: #141648;
-  }
+    flex: 1;
+}
 
 /* Estilos responsivos para telas menores que 1200px */
-@media (max-width:1200px) {
-#about-descricao, #about-pelicula, #about-position {
-    width: 100%;
-    flex-direction: column;
-    gap: 1em;
-  }
+@media (max-width: 1200px) {
+    #about-position {
+        flex-direction: column;
+        gap: 1em;
+    }
 
-  #img-about {
-    width: 75%;
-    height: 100%;
-    margin-left: 3em;
-  }
+    #about-pelicula {
+        width: 100%;
+    }
 
-} 
+    #img-about {
+        width: 100%;
+        height: auto;
+    }
+}
 
-@media(max-width: 452px) {
-  #img-about {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
-
-  }
+@media (max-width: 452px) {
+    #img-about {
+        width: 100%;
+        height: auto;
+    }
 }
