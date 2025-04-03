@@ -154,7 +154,11 @@
     color: var(--color-4);
 }
 
-
+#header .navbar-brand img {
+    position: absolute !important;
+    top: 2.0rem;
+    left: 2.0rem;
+}
 
 @media(max-width: 452px) {
     #header .navbar-brand img {
