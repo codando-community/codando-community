@@ -216,30 +216,24 @@
       </div>
 
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="max-width: 1100px; margin: 4rem auto; border-radius: 15px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <!-- Dynamically populated -->
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+            <div style="height: 450px; display: flex; align-items: center; justify-content: center; background: #000;">
+              <div class="spinner-border text-warning" role="status"></div>
+            </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
+          <span class="visually-hidden">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
+          <span class="visually-hidden">Próximo</span>
         </a>
       </div>
 
@@ -274,6 +268,7 @@
   
   <script src="js/alert.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/eventos_home.js"></script>
   
   <!-- Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
