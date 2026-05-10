@@ -1,0 +1,58 @@
+#header {
+    background-color: linear-gradient(90deg, #010A2A 0%, #01738f 50%, #010A2A 100%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid var(--yellow);
+    z-index: 100;
+} 
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* tamanho da logo */
+.logo img {
+    height: 45px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.nav-links a {
+    font-family: var(--font-header);
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.acessibility-icon {
+    background: transparent;
+    border: none;
+    gap: 15px;
+    cursor: pointer;
+    left: -15px;
+    position: relative;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

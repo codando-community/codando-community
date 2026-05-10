@@ -1,47 +1,77 @@
-footer {
-  background-color: var(--color-3);
-  color: var(--color-4);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:wght@400;700&display=swap');
+
+.footer {
+  width: 90%;
+  margin: 50px auto 20px auto;
+  background: linear-gradient(90deg,  #031a3f, #4097CD1A,  #031a3f);
+  padding: 30px 0;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  overflow: hidden;
 }
 
-#logo-codando {
-  width: 80px;
+.footer-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#footer-codando, #footer-community {
-  font-size: 56px;
-  padding-block: 10px;
+.logo-codando img {
+  width: 150px;
+  height: auto;
+  display: block;
 }
 
-#footer-codando {
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  color: var(--color-2);
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-#footer-community {
-  font-family: "Aclonica", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--color-1);
+.footer-text {
+  color: var(--yellow);
+  font-family: var(--font-header);
+  font-size: 13px;
+  flex: 1;
+  text-align: center;
+  margin: 0 20px;
 }
 
 .logos-contato {
-  width: 80px;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
 }
 
-#footer-text {
-  font-family: "Aclonica", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
+.logos-contato:hover {
+    transform: scale(1.2);
 }
 
-.box-footer-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+.enter-contact {
+    color: var(--yellow);
+    font-family: var(--font-header);
+    font-size: 14px;
+    white-space: nowrap;
+    margin: 0;
 }
 
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-text {
+        order: 3;
+        margin: 10px 0;
+    }
+
+    .logo-codando img {
+        width: 120px;
+    }
+}

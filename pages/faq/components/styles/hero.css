@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:wght@400;700&display=swap');
+
+.hero {
+    padding-top: 80px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.logo-cody {
+    width: 230px;
+    height: 240px;
+    margin-left: 150px;
+    z-index: 2;
+}
+
+/* SETAS */
+.hero-arrows {
+    position: relative;
+    width: 180px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    margin-left: 20px;
+}
+
+.hero-arrows::before {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 145px;
+    border-left: 25px solid var(--cyan);
+    border-bottom: 25px solid var(--cyan);
+    transform: rotate(45deg);
+    left: 400px;
+}
+
+.hero-arrows::after {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 145px;
+    border-left: 25px solid var(--cyan);
+    border-bottom: 25px solid var(--cyan);
+    transform: rotate(45deg);
+    left: 450px;
+}
+
+.hero-box {
+    flex: 1;
+    position: relative;
+    height: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: linear-gradient(180deg, #010A2A 0%, #01738f 50%, #010A2A 100%);
+    clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 8% 100%, 0% 48%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    margin-left: 320px;
+}
+
+.hero-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2.5px solid #000000;
+    clip-path: inherit;
+    pointer-events: none;
+}
+
+.hero-text {
+    color: var(--white);
+    font-size: 80px;
+    font-family: var(--font-header);
+    margin: 0;
+    margin-right: 120px;
+    line-height: 1;
+}
+
+.hero-codando {
+    color: var(--pink);
+    font-family: var(--font-hero-codando);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 120px;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+            flex-direction: column;
+            height: auto;
+            padding: 20px 0;
+        }
+        .log-cody {
+            width: 150px;
+            height: auto;
+            margin-left: 0;
+            margin-bottom: 20px;
+        }
+        .hero-arrows {
+            display: none;
+        }
+        .hero-box{
+            width: 100%;
+            margin-left: 0;
+            clip-path: none;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero-text {
+            font-size: 45px;
+        }
+        .hero-codando {
+            font-size: 25px;
+        }
+}
