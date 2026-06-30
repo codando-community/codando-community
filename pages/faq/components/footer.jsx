@@ -17,16 +17,16 @@ function Footer () {
                     {/* direita */}
                     <div id="footer-links" className="footer-links">
                         <a href="https://instagram.com/codando.community" target="_blank" rel="noopener noreferrer">
-                            <img src="/img/logo-instagram.svg" alt="Instagram" className="logos-contato" />
+                            <img src="/img/instagram_neon.png" alt="Instagram" className="logos-contato" />
                         </a>
                         <a href="https://linkedin.com/company/codando-community" target="_blank" rel="noopener noreferrer">
-                            <img src="/img/logo-linkedin.svg" alt="Linkedin" className="logos-contato" />
+                            <img src="/img/linkedin_neon_2.png" alt="Linkedin" className="logos-contato" />
                         </a>
                         <a href="https://discord.gg/4FUGptNTW" target="_blank" rel="noopener noreferrer">
-                            <img src="/img/logo-discord.svg" alt="Discord" className="logos-contato" />
+                            <img src="/img/discord_nneon.png" alt="Discord" className="logos-contato" />
                         </a>
                         <a href="mailto:codando.community@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <img src="/img/logo-email.svg" alt="E-mail" className="logos-contato" />
+                            <img src="/img/gmail_neon.png" alt="E-mail" className="logos-contato" />
                         </a>
                     </div>
                     <span className="enter-contact">Entre em contato conosco</span>

@@ -1,6 +1,14 @@
+import { useState } from "react";
+
 function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
-        <header id="header">
+        <header id="header" className={menuOpen ? "nav-open" : ""}>
             <nav className="navbar">
                 <div className="container">
                     <a className="logo" href="/">
@@ -22,7 +30,12 @@ function Header() {
                     <a href="#search-bar" className="header-search">
                     <img src="/img/faq/pesquise-sua-duvida.svg" alt="search-icon"/>
                     </a>
-                    
+
+                    <button className="hamburger" onClick={toggleMenu} aria-label="Abrir menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>   
                 </div>
             </nav>
         </header>

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:wght@400;700&display=swap');
 
 .hero {
-    padding-top: 80px;
     overflow: hidden;
     display: flex;
     width: 100%;
@@ -19,47 +18,55 @@
 }
 
 .logo-cody {
-    width: 230px;
-    height: 240px;
-    margin-left: 150px;
+    width: 232px;
+    height: 220px;
+    margin-left: 120px;
+    flex-shrink: 0;
     z-index: 2;
+    position: relative;
+    object-fit: contain;
 }
 
 /* SETAS */
 .hero-arrows {
     position: relative;
-    width: 180px;
-    height: 150px;
-    display: flex;
-    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
     z-index: 3;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .hero-arrows::before {
     content: "";
     position: absolute;
-    width: 155px;
-    height: 145px;
-    border-left: 25px solid var(--cyan);
-    border-bottom: 25px solid var(--cyan);
+    width: 160px;
+    height: 160px;
+    border-left: 26px solid var(--cyan);
+    border-bottom: 26px solid var(--cyan);
     transform: rotate(45deg);
-    left: 400px;
+    top: 50%;
+    margin-top: -95px;
+    left: 90px;
 }
 
 .hero-arrows::after {
     content: "";
     position: absolute;
-    width: 155px;
-    height: 145px;
-    border-left: 25px solid var(--cyan);
-    border-bottom: 25px solid var(--cyan);
+    width: 160px;
+    height: 160px;
+    border-left: 26px solid var(--cyan);
+    border-bottom: 26px solid var(--cyan);
     transform: rotate(45deg);
-    left: 450px;
+    top: 50%;
+    margin-top: -95px;
+    left: 140px;
+    
 }
 
 .hero-box {
     flex: 1;
+    min-width: 0;
     position: relative;
     height: 100%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -70,16 +77,13 @@
     justify-content: center;
     align-items: center;
     padding-left: 10%;
-    margin-left: 320px;
 }
 
 .hero-box::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
     border: 2.5px solid #000000;
     clip-path: inherit;
     pointer-events: none;
@@ -103,32 +107,215 @@
     margin-right: 120px;
 }
 
+@media (max-width: 1200px) {
+    .hero-content {
+        height: 190px;
+    }
+
+    .logo-cody {
+        width: 190px;
+        height: 190px;
+        margin-left: 80px;
+    }
+
+    .hero-text {
+        font-size: 64px;
+        margin-right: 50px;
+    }
+
+    .hero-codando {
+        font-size: 32px;
+        margin-right: 50px;
+    }
+
+    .hero-arrows {
+        width: 180px;
+        height: 190px;
+    }
+
+    .hero-arrows::before {
+        width: 140px;
+        height: 140px;
+        border-left: 23px solid var(--cyan);
+        border-bottom: 23px solid var(--cyan);
+        margin-top: -75px;
+        left: 90px;
+    }
+
+    .hero-arrows::after {
+        width: 140px;
+        height: 140px;
+        border-left: 23px solid var(--cyan);
+        border-bottom: 23px solid var(--cyan);
+        margin-top: -75px;
+        left: 135px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content {
+        height: 165px;
+    }
+
+    .logo-cody {
+        width: 170px;
+        height: 170px;
+        margin-left: 30px;
+    }
+
+    .hero-arrows::before {
+        left: 230px;
+        margin-top: -80px;
+    }
+
+    .hero-arrows::after {
+        left: 280px;
+        margin-top: -80px;
+    }
+
+    .hero-box {
+        margin-left: 140px;
+       clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 48%);
+    }
+
+    .hero-text {
+        font-size: 52px;
+        margin-right: 40px;
+    }
+
+    .hero-codando {
+        font-size: 26px;
+        margin-right: 40px;
+    }
+
+}
+
 @media (max-width: 768px) {
     .hero-content {
-            flex-direction: column;
-            height: auto;
-            padding: 20px 0;
+        height: 110px;
+        overflow: hidden;
+    }
+
+    .logo-cody {
+        width: 180px;
+        height: 100px;
+        margin-left: 8px;
+        flex-shrink: 0;
+    }
+
+    .hero-arrows {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        margin-left: 4px;
+        margin-top: 55px;
+        flex-shrink: 0;
+    }
+
+    .hero-arrows::before {
+        width: 90px;
+        height: 88px;
+        border-left: 15px solid var(--cyan);
+        border-bottom: 15px solid var(--cyan);
+        left: 70px;
+    }
+
+    .hero-arrows::after {
+        width: 90px;
+        height: 88px;
+        border-left: 15px solid var(--cyan);
+        border-bottom: 15px solid var(--cyan);
+        left: 100px;
+    }
+
+    .hero-box{
+        flex: 1;
+        min-width: 0;
+        margin-left: 30px;
+        clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 48%);
+        padding-left: 20px;
+        padding-right: 8px;
+    }
+
+    .hero-text {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .hero-codando {
+            font-size: 16px;
+            margin-right: 10px;
         }
-        .log-cody {
-            width: 150px;
-            height: auto;
-            margin-left: 0;
-            margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+
+    .hero-content {
+        height: 100px;
+    }
+
+    .logo-cody {
+        width: 98px;
+        height: 75px;
+        margin-left: 6px;
+    }
+
+    .hero-arrows {
+        width: 40px;
+        height: 80px;
+        margin-left: 2px;
+        margin-top: 80px;
+    }
+
+    .hero-arrows::before {
+        width: 70px;
+        height: 70px;
+        border-left: 10px solid var(--cyan);
+        border-bottom: 10px solid var(--cyan);
+        left: 20px;
+    }
+
+    .hero-arrows::after {
+        width: 70px;
+        height: 70px;
+        border-left: 10px solid var(--cyan);
+        border-bottom: 10px solid var(--cyan);
+        left: 38px;
+    }
+
+    .hero-box {
+        width: 20px;
+        margin-left: 20px;
+        padding-left: 22%;
+    }
+
+    .hero-text {
+        font-size: 26px;
+        margin-right: 8px;
+    }
+
+    .hero-codando {
+            font-size: 14px;
+            margin-right: 8px;
         }
-        .hero-arrows {
-            display: none;
-        }
-        .hero-box{
-            width: 100%;
-            margin-left: 0;
-            clip-path: none;
-            padding: 20px;
-            text-align: center;
-        }
-        .hero-text {
-            font-size: 45px;
-        }
-        .hero-codando {
-            font-size: 25px;
-        }
+}
+
+@media (max-width: 360px) {
+
+    .logo-cody {
+        width: 56px;
+        height: 62px;
+    }
+
+    .hero-arrows {
+        width: 32px;
+    }
+
+    .hero-text {
+        font-size: 22px;
+    }
+
+    .hero-codando {
+        font-size: 12px;
+    }
 }
